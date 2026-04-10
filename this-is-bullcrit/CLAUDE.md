@@ -2,7 +2,7 @@
 
 ## World
 
-[world.md](world.md)
+[world.md](maps/world.md)
 
 ## Party Tracker (Google Sheet)
 
