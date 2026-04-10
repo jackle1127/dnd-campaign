@@ -36,11 +36,11 @@ A barren, sandy region in the south dominated by one massive structure.
 
 Key locations:
 - **Vaultspire** - the massive prison tower at the center of a circular crater; where the party's story began. The most imposing structure on the map.
+- **Stonehaven** - fortified settlement in the southeastern desert
+- **Salt Harbor** - desert port town on the southeastern coast; the only ocean access in the southern wastes
 
 ### Coastal & Island Locations
 - **Sea Mist** - island city to the southwest, connected to the mainland by a long bridge; a hub of commerce, corruption, and crime where Kaelen built his underworld career
-- **Stonehaven** - fortified settlement on the southeastern coast
-- **Salt Harbor** - port town at the far southeast
 
 ## Geography Notes
 
