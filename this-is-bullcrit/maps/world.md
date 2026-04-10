@@ -10,13 +10,13 @@ A dark, shadowy region in the northwest. Ruled by a **Council of 12 Elder Vampir
 Key locations:
 - **Sanguine Keep** - seat of vampire power, northern edge of Nocturnia
 - **Eboncrest** - westernmost settlement, on the far edge of the kingdom
-- **Dusktown** - main settlement within Nocturnia's interior
 
 ### Central Heartlands (Forested)
 A dense green forest region at the center of Terra Nova. Most of the party's story takes place here.
 
 Key locations:
 - **Ironpeak** - large central city, the heartland's dominant settlement
+- **Dusktown** - settlement in the heartlands interior
 - **Bramblewood** - hometown of House Thornecrest; where Kaelen and Darian grew up
 - **Feomir** - settlement south of Bramblewood
 - **Whispering Pines** - forested area east of Ironpeak
