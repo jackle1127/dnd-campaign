@@ -4,48 +4,44 @@ Scale: 1 inch = 100 miles
 
 ## Regions
 
-### Vampire Kingdom of Nocturnia (Northwest)
-A dark, shadowy region in the northwest. Ruled by a **Council of 12 Elder Vampires** from **Sanguine Keep**, a foreboding castle at the region's northern tip.
-
-Key locations:
-- **Sanguine Keep** - seat of vampire power, northern edge of Nocturnia
-- **Eboncrest** - westernmost settlement, on the far edge of the kingdom
-
 ### Central Heartlands (Forested)
 A dense green forest region at the center of Terra Nova. Most of the party's story takes place here.
 
-Key locations:
-- **Ironpeak** - large central city, the heartland's dominant settlement
-- **Dusktown** - settlement in the heartlands interior
-- **Bramblewood** - hometown of House Thornecrest; where Kaelen and Darian grew up
-- **Feomir** - settlement south of Bramblewood
-- **Whispering Pines** - forested area east of Ironpeak
-- **Tripoint** - northern settlement near the border between regions
-- **Ironwood Fortress** - fortified stronghold in the southern heartlands
+- **Ironpeak** - large city at the center, the heartland's dominant settlement
+- **Dusktown** - northwest of Ironpeak, on the border with Nocturnia
+- **Bramblewood** - west of Ironpeak; hometown of House Thornecrest
+- **Tripoint** - north of Ironpeak, at the junction of the heartlands, Nocturnia, and the ice region
+- **Whispering Pines** - east of Ironpeak, within the forest
+- **Feomir** - southwest of Ironpeak
+- **Ironwood Fortress** - south of Ironpeak, at the edge of the desert
 
-### Northern Ice Region
-A cold, mountainous region in the northeast with icy blue terrain.
+### Northwest - Vampire Kingdom of Nocturnia
+A dark, shadowy region ruled by a **Council of 12 Elder Vampires**.
 
-Key locations:
-- **Frostguard** - northeastern settlement, likely a military outpost
-- **Winter's Edge** - settlement at the frontier of the cold region
-- **Frosthaven** - eastern settlement on the edge of the ice region
+- **Sanguine Keep** - far northwest; seat of vampire power
+- **Eboncrest** - far west
 
-### Southern Wastes (Desert)
-A barren, sandy region in the south dominated by one massive structure.
+### Northeast - Northern Ice Region
+Cold, mountainous terrain.
 
-Key locations:
-- **Vaultspire** - the massive prison tower at the center of a circular crater; where the party's story began. The most imposing structure on the map.
-- **Stonehaven** - fortified settlement in the southeastern desert
-- **Salt Harbor** - desert port town on the southeastern coast; the only ocean access in the southern wastes
+- **Frostguard** - far northeast
+- **Winter's Edge** - northeast, between Tripoint and Frostguard
+- **Frosthaven** - east, on the border with the heartlands
 
-### Coastal & Island Locations
-- **Sea Mist** - island city to the southwest, connected to the mainland by a long bridge; a hub of commerce, corruption, and crime where Kaelen built his underworld career
+### South - Southern Desert/Wastes
+Barren desert south of the heartlands.
+
+- **Vaultspire** - directly south; the massive prison tower in a circular crater; where the party's story began
+- **Stonehaven** - southeast desert
+- **Salt Harbor** - southeast coast; the only ocean access in the southern wastes
+
+### Southwest - Sea Mist
+- **Sea Mist** - island city connected to the mainland by a long bridge; a hub of commerce, corruption, and crime where Kaelen built his underworld career
 
 ## Geography Notes
 
-- Nocturnia is separated from the heartlands by dense forest and darkness
-- A river runs through the central heartlands past Ironpeak
-- Sea Mist is only accessible via a single bridge to the mainland
-- Vaultspire sits in an isolated crater in the southern wastes - deliberately remote
-- The northern ice region and southern desert create natural barriers on both ends of the heartlands
+- Nocturnia borders the heartlands to the northwest; the transition is marked by the forest darkening
+- Tripoint sits at the northern tip where three regions converge
+- Vaultspire is deliberately isolated in the desert, far from any other settlement
+- Sea Mist's only land connection is a single bridge
+- Salt Harbor is coastal despite being in the desert
