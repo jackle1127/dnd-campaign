@@ -1,9 +1,20 @@
 # 2026-03-28 - Slick Dies in Ironwood Town
 
-- Crates were delivered by wagon to a soup kitchen in Ironwood Town
-- Accidentally tripped the alarm inside
-- Guards flooded in as the party scrambled to escape
-- Slick was shot and immediately fainted — he didn't have Mage Armor up
-- Rayne (wildshaping as a bear) tried to carry him out in her mouth to save him
+- Crates delivered by wagon to a soup kitchen in Ironwood Town
+- The party received equipment and weapons from Bristle the scavenger - everyone except Vacir and Slick
+- Rayne shared lore about a special artifact she has a strong connection to:
+  - Before her arrest at the home of Lord Halvar Dendros, she buried it under an Oak tree for safekeeping
+  - She was shipped to Vaultspire before she could retrieve it
+  - Her companion Bristle the flying squirrel had been watching over it
+  - Bristle reported seeing someone he believed to be Lord Halvar Dendros himself come to unearth the item
+  - Bristle also spotted a Lord Dendros look-alike among the guards currently on their lunch break
+- Vacir snuck in to gather intel on the look-alike
+- Vacir encountered the first person behind the door and decapitated them - it was Cindy, a soup kitchen worker, not a guard
+  - Cindy had rushed to work that morning and never got to say goodbye to her husband and son
+  - Vacir brought the body back into the hiding room, but left the head behind
+- Guards noticed and flooded in; chaos ensued
+- Slick was pierced by two arrows and immediately went into death saving throws - he didn't have Mage Armor up
+- Rayne wildshaping as a bear tried to drag Slick through the window to safety
 - She accidentally bit him, giving him additional failed death saving throws
+- Helga escaped through a 10ft high window and made it out with the party
 - **Kaelen "Slick" Thornecrest is dead**
