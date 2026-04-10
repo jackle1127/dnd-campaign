@@ -31,7 +31,7 @@ Cold, mountainous terrain.
 ### South - Southern Desert/Wastes
 Barren desert south of the heartlands.
 
-- **Vaultspire** - directly south; the massive prison tower in a circular crater; where the party's story began
+- **Vaultspire** - directly south; the massive prison tower in a circular crater; where the party was imprisoned and escaped from at the start of the campaign
 - **Stonehaven** - southeast desert
 - **Salt Harbor** - southeast coast; the only ocean access in the southern wastes
 
