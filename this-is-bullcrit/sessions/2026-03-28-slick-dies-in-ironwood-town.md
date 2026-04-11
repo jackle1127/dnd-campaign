@@ -1,12 +1,11 @@
 # 2026-03-28 - Slick Dies in Ironwood Town
 
 - Crates delivered by wagon to a soup kitchen in Ironwood Town
-- The party received equipment and weapons from Bristle the scavenger - everyone except Vacir and Slick
+- The party received equipment and weapons from Bristle (Rayne's flying squirrel companion) - everyone except Vacir and Slick
 - Rayne shared lore about a special artifact she has a strong connection to:
   - Before her arrest at the home of Lord Halvar Dendros, she buried it under an Oak tree for safekeeping
   - She was shipped to Vaultspire before she could retrieve it
-  - Her companion Bristle the flying squirrel had been watching over it
-  - Bristle reported seeing someone he believed to be Lord Halvar Dendros himself come to unearth the item
+  - Bristle had been watching over it and reported seeing someone he believed to be Lord Halvar Dendros himself come to unearth the item
   - Bristle also spotted a Lord Dendros look-alike among the guards currently on their lunch break
 - Vacir snuck in to gather intel on the look-alike
 - Vacir encountered the first person behind the door and decapitated them - it was Cindy, a soup kitchen worker, not a guard
