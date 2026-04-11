@@ -87,3 +87,17 @@ He needs the crew more than he will ever admit. He will be condescending to them
 His mother slipped him a letter before he left. He hasn't opened it. It's a good hook.
 The documents in the Bag of Holding haven't surfaced yet. If they do, House Thornecrest is in serious trouble and Darian becomes both an asset and a liability to the crew.
 Play him smart, play him cold, and let the cracks show slowly.
+
+---
+
+## D&D Beyond Stats *(as of 2026-04-10)*
+
+**Class:** Wizard 2 | **Race:** Human | **Level:** 2 | **HP:** 10 | **Status:** Active
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 10 (+0) | 12 (+1) | 15 (+2) | 14 (+2) | 13 (+1) |
+
+**Spells:** Absorb Elements, Detect Magic, Find Familiar, Fire Bolt, Identify, Mage Armor, Mage Hand, Magic Missile, Minor Illusion, Shield, Sleep
+
+**Inventory:** Quarterstaff, Backpack, Clothes, Fine, Signet Ring, Spellbook, Crystal, Book, Ink (1 ounce bottle), Ink Pen, Parchment (one sheet), Little Bag of Sand, Small Knife

@@ -106,3 +106,17 @@ When Kaelen first arrived in Sea Mist, he survived by pickpocketing drunk patron
 She was tending bar for her father and grabbed his wrist without raising her voice or calling the Watch. Instead of exposing him, she quietly made him return what he’d taken, then fed him a slice of her homemade quiche before sending him on his way.
 It was the only crime Kaelen ever committed that left him poorer in coin—but richer in consequence.
 
+
+---
+
+## D&D Beyond Stats *(as of 2026-04-10)*
+
+**Class:** Wizard 2 | **Race:** Human | **Level:** 2 | **HP:** 10 | **Status:** DECEASED
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 10 (+0) | 12 (+1) | 13 (+1) | 15 (+2) | 14 (+2) | 8 (-1) |
+
+**Spells:** Charm Person, Detect Magic, Feather Fall, Find Familiar, Fire Bolt, Grease, Mage Armor, Mage Hand, Magic Missile, Thunderwave, Unseen Servant
+
+**Inventory:** Quarterstaff
