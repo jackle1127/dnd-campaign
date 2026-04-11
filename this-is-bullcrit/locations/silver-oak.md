@@ -1,6 +1,6 @@
 # The Silver Oak
 
-**Location:** Ironwood Town
+**Location:** Ironwood Fortress
 **Type:** Venue (feast/event hall)
 
 ## Known Information

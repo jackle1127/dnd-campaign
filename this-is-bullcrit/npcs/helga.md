@@ -1,20 +1,24 @@
 # Helga
 
 **Type:** Human
-**Affiliation:** Vaultspire prison (former lunch lady), Ironwood Town soup kitchen
-**Status:** Active - last seen at Ironwood Town soup kitchen
+**Affiliation:** Vaultspire prison (former lunch lady), Ironwood Fortress soup kitchen
+**Status:** Active - last seen at Ironwood Fortress soup kitchen
 
 ## Overview
 
-Helga was a lunch lady at Vaultspire prison. The party struck a deal with her: smuggle items to her family in exchange for her silence. She helped them hide in food crates that were loaded onto a wagon bound for Ironwood Town.
+Helga was the lunch lady at Vaultspire prison's mess hall. Vacir befriended her during the party's imprisonment. She joined the escape after retrieving her savings - a heavy chest earmarked for her sick mother - declaring she was out of PTO. The party struck a deal with her: deliver items to her family in exchange for her silence and help escaping.
 
 ## Known Information
 
-- Helped the party escape Vaultspire by hiding them in food crates
-- Has family the party has not yet delivered items to (outstanding obligation)
-- Escaped through a 10ft high window during the chaos at the Ironwood Town soup kitchen
-- Was spotted by Bristle working at the Ironwood Town soup kitchen after the escape
+- Befriended by Vacir during the party's time in Vaultspire
+- Joined the escape of her own initiative - retrieved her savings (for her sick mother) and ran out of PTO
+- Threw flour in a guard's eyes to cover the party during the escape from the mess hall
+- Helped hide everyone in supply crates bound for Ironwood Fortress
+- During the chaos at the Ironwood Fortress soup kitchen, toppled onto Vacir - their first accidental kiss
+- Escaped through a 10ft high window during the soup kitchen brawl
 - Yelled at the party not to leave her behind as they fled into the forest
+- Was spotted by Bristle working at the Ironwood Fortress soup kitchen after the escape
+- Has family the party has not yet delivered items to (outstanding obligation)
 
 ## Loose Thread
 

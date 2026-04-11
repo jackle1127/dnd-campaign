@@ -82,7 +82,7 @@ Use `updateTextStyle` with `bold: True` on specific text ranges. Find ranges by 
 
 Important terms to bold in character docs:
 - Character names (full and short forms)
-- Locations: Bramblewood, Sea Mist, Vaultspire, Ironwood Town, Skullport
+- Locations: Bramblewood, Sea Mist, Vaultspire, Ironwood Fortress, Skullport
 - Organizations: House Thornecrest, Argent Circle, Wet Bandits, Waterfront Triad, Xanathar Syndicate, Arcanum Lyceum
 - Key NPCs: Helga, Elyra Vance
 

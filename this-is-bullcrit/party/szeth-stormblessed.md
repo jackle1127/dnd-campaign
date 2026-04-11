@@ -6,7 +6,7 @@
 **Level:** 2  
 **HP:** 13  
 **Status:** Active  
-**Contract:** Bound to Incus (fiend) - must recruit members into Incus's religion
+**Contract:** Bound to Inkus (Warlock patron) - must recruit members into Inkus's religion
 
 ## Ability Scores
 

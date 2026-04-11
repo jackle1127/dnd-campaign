@@ -16,7 +16,7 @@
 - Rayne shifted back to human form and ran out pretending to flee from the bear
 - Team is now in the forest
 - Team winds down for a long rest in the forest
-- While resting, Szeth is visited by Incus in a dream
+- While resting, Szeth is visited by Inkus in a dream
 - After the long rest, it is now night
 - Bristle bit everyone's toes to wake them up - he had something to tell them
 - Bristle had gone back to the soup kitchen to gather intel
