@@ -117,6 +117,30 @@ def get_stats(char):
 
 Save `all_characters.json` to the repo root temporarily, then delete after processing.
 
+## Workflow 4: Edit Character Sheet Fields (Traits, Ideals, Bonds, Flaws, Appearance)
+
+Navigate to the character sheet, click the "Description IconBackground" tab, then click each trait section to open its sidebar panel.
+
+**Critical: Save button behavior** - After typing into any trait or notes field, a **Save button appears** (class `ct-theme-button--filled`). It does NOT auto-save. Clicking the far left of the screen (x=50) will close the sidebar and dismiss the Save button. You must click Save explicitly - do not rely on clicking away to save.
+
+The Save button is often scrolled off-screen above the viewport. Use JS to click it directly rather than scrolling:
+```javascript
+// After filling textarea, trigger unsaved state then click save:
+await ta.press('Space'); // triggers React's onChange, making Save appear
+await page.waitForTimeout(300);
+await page.evaluate(() => {
+  const save = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'Save');
+  if (save) save.click();
+});
+```
+
+Steps for each field:
+1. Click the section (e.g. "+ Add Bonds") to open its sidebar
+2. `ta.fill('content')` to set the text
+3. `ta.press('Space')` + wait 300ms to trigger unsaved state
+4. JS-click the Save button
+5. Wait 500ms, then repeat for next field
+
 ## Workflow 3: Create a Character
 
 Build a new character on D&D Beyond via Playwright.
