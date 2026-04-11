@@ -5,6 +5,8 @@ description: Scrape all D&D Beyond character sheets for the Podcast campaign and
 
 # D&D Beyond Campaign Skill
 
+**Before making any Google Doc updates, read `this-is-bullcrit/doc-formatting.md`** — it defines heading hierarchy, divider patterns, bolding conventions, and API patterns. Do not skip this step.
+
 Three main workflows — read the relevant reference before starting:
 
 ## Workflow 1: Update the Campaign Tracker (Google Sheet)
