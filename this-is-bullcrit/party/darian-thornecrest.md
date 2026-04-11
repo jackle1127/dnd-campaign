@@ -23,9 +23,19 @@ Darian accepted without hesitation. Not out of brotherly concern - he told himse
 
 He arrived flush with Thornecrest gold - a generous travel allowance from his father, more coin than most people see in a year.
 
-He does not currently have that coin. (The circumstances remain to be determined.)
+He does not currently have that coin. He was tricked by a group of thieves who made off with all his riches and possessions.
 
 He doesn't know Kaelen is dead. He doesn't know what he's walking into.
+
+## Thornecrest Family Prayer
+
+Said over Kaelen's body when Darian finds him:
+
+*"By the blood of our house and the name we carry,*
+*I commend you to the dark you always courted.*
+*You burned too bright for Thornecrest halls.*
+*May whatever comes next have the good sense*
+*to get out of your way."*
 
 ## What He Won't Say Out Loud
 
