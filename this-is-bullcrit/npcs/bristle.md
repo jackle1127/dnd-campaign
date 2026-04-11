@@ -12,4 +12,4 @@ Bristle is Rayne Willowshade's sassy flying squirrel companion. While Rayne was 
 
 - Witnessed someone matching the description of Lord Halvar Dendros unearth Rayne's artifact
 - Spotted a Lord Dendros look-alike among the guards at the Ironwood Town soup kitchen
-- Distributed equipment and weapons to the party at the soup kitchen (Vacir and Slick did not receive any)
+- Led the party to his stash, where they picked up equipment and weapons (Vacir and Slick did not receive any)

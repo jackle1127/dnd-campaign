@@ -1,7 +1,7 @@
 # 2026-03-28 - Slick Dies in Ironwood Town
 
 - Crates delivered by wagon to a soup kitchen in Ironwood Town
-- The party received equipment and weapons from Bristle (Rayne's flying squirrel companion) - everyone except Vacir and Slick
+- Bristle (Rayne's flying squirrel companion) led the party to his stash; everyone except Vacir and Slick picked up equipment and weapons
 - Rayne shared lore about a special artifact she has a strong connection to:
   - Before her arrest at the home of Lord Halvar Dendros, she buried it under an Oak tree for safekeeping
   - She was shipped to Vaultspire before she could retrieve it
