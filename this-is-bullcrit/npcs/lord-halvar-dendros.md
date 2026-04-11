@@ -1,7 +1,7 @@
 # Lord Halvar Dendros
 
-**Type:** Human noble (or look-alike?)
-**Status:** Active - whereabouts uncertain
+**Type:** Human noble (or look-alike?)  
+**Status:** Active - whereabouts uncertain  
 
 ## Overview
 

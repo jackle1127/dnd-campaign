@@ -1,8 +1,8 @@
 # Grimshaw
 
-**Type:** Half-elf
-**Affiliation:** Vaultspire prison (fellow prisoner)
-**Status:** Unknown - last seen in Vaultspire
+**Type:** Half-elf  
+**Affiliation:** Vaultspire prison (fellow prisoner)  
+**Status:** Unknown - last seen in Vaultspire  
 
 ## Overview
 

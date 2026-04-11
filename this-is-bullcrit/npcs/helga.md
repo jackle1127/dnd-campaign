@@ -1,8 +1,8 @@
 # Helga
 
-**Type:** Human
-**Affiliation:** Vaultspire prison (former lunch lady), Ironwood Fortress soup kitchen
-**Status:** Active - last seen at Ironwood Fortress soup kitchen
+**Type:** Human  
+**Affiliation:** Vaultspire prison (former lunch lady), Ironwood Fortress soup kitchen  
+**Status:** Active - last seen at Ironwood Fortress soup kitchen  
 
 ## Overview
 
@@ -15,9 +15,9 @@ Helga was the lunch lady at Vaultspire prison's mess hall. Vacir befriended her 
 - Threw flour in a guard's eyes to cover the party during the escape from the mess hall
 - Helped hide everyone in supply crates bound for Ironwood Fortress
 - During the chaos at the Ironwood Fortress soup kitchen, toppled onto Vacir - their first accidental kiss
-- Escaped through a 10ft high window during the soup kitchen brawl
+- Got left behind during the chaos at the soup kitchen - was stuck inside as the party fled
 - Yelled at the party not to leave her behind as they fled into the forest
-- Was spotted by Bristle working at the Ironwood Fortress soup kitchen after the escape
+- Was spotted by Bristle having stayed on and worked at the soup kitchen for a bit after the chaos
 - Has family the party has not yet delivered items to (outstanding obligation)
 
 ## Loose Thread

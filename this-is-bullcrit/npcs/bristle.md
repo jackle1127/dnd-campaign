@@ -1,10 +1,10 @@
 # Bristle
 
-**Type:** Flying squirrel
-**Affiliation:** Rayne Willowshade (companion)
-**Status:** Active
+**Type:** Flying squirrel  
+**Affiliation:** Rayne Willowshade (companion)  
+**Status:** Active  
 
-**Favorite treat:** Nuts
+**Favorite treat:** Nuts  
 
 ## Overview
 

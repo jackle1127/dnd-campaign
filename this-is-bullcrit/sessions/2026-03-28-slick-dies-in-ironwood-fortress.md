@@ -15,5 +15,5 @@
 - Slick was pierced by two arrows and immediately went into death saving throws - he didn't have Mage Armor up
 - Rayne wildshaping as a bear tried to drag Slick through the window to safety
 - She accidentally bit him, giving him additional failed death saving throws
-- Helga escaped through a 10ft high window and made it out with the party
+- Helga got left behind - was stuck inside the soup kitchen as the party fled; she yelled at them not to leave her
 - **Kaelen "Slick" Thornecrest is dead**

@@ -1,8 +1,8 @@
 # Inkus
 
-**Type:** Lower-tier deity / Warlock Patron
-**Affiliation:** Szeth Stormblessed
-**Status:** Active
+**Type:** Lower-tier deity / Warlock Patron  
+**Affiliation:** Szeth Stormblessed  
+**Status:** Active  
 
 ## Overview
 
