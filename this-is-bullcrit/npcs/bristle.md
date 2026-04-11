@@ -4,6 +4,8 @@
 **Affiliation:** Rayne Willowshade (companion)
 **Status:** Active
 
+**Favorite treat:** Nuts
+
 ## Overview
 
 Bristle is Rayne Willowshade's sassy flying squirrel companion. While Rayne was imprisoned in Vaultspire, Bristle kept watch over a special artifact that Rayne had buried under an Oak tree near Lord Halvar Dendros's estate before her arrest.

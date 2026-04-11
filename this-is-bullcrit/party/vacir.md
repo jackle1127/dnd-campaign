@@ -5,7 +5,8 @@
 **Race:** Variant Human  
 **Level:** 2  
 **HP:** 13  
-**Status:** Active
+**Status:** Active  
+**Current gear:** Prison clothing (no armor acquired from Bristle's stash)
 
 ## Ability Scores
 
