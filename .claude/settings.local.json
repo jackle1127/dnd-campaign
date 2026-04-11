@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\Jack\\\\Workspace\\\\dnd-campaign\\\\.claude\\\\skills\\\\dnd-beyond-campaign\\\\references\")",
+      "Bash(cp \"/c/Users/Jack/.claude/skills/dnd-beyond-campaign/skill.md\" \"C:\\\\Users\\\\Jack\\\\Workspace\\\\dnd-campaign\\\\.claude\\\\skills\\\\dnd-beyond-campaign\\\\skill.md\")",
+      "Bash(cp \"/c/Users/Jack/.claude/skills/dnd-beyond-campaign/references/campaign-tracker.md\" \"C:\\\\Users\\\\Jack\\\\Workspace\\\\dnd-campaign\\\\.claude\\\\skills\\\\dnd-beyond-campaign\\\\references\\\\campaign-tracker.md\")",
+      "Bash(cp \"/c/Users/Jack/.claude/skills/dnd-beyond-campaign/references/character-creation.md\" \"C:\\\\Users\\\\Jack\\\\Workspace\\\\dnd-campaign\\\\.claude\\\\skills\\\\dnd-beyond-campaign\\\\references\\\\character-creation.md\")"
+    ]
+  }
+}
