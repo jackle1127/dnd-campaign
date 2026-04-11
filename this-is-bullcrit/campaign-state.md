@@ -13,6 +13,7 @@ Vacir snuck in to investigate and decapitated the first person he encountered - 
 - Rayne's artifact: last seen being unearthed by Lord Halvar Dendros (or his look-alike) near the Oak tree where Rayne buried it
 - Lord Halvar Dendros look-alike spotted among Ironwood Town guards - unknown significance
 - Helga's family: the party still owes her a delivery
+- Szeth's contract with Incus: Szeth must recruit members into Incus's religion
 
 ## Party
 
