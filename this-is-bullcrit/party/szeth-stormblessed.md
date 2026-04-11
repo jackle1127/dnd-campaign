@@ -5,7 +5,8 @@
 **Race:** Tiefling  
 **Level:** 2  
 **HP:** 13  
-**Status:** Active
+**Status:** Active  
+**Contract:** Bound to Incus (fiend) - must recruit members into Incus's religion
 
 ## Ability Scores
 

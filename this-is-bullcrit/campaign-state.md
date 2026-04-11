@@ -30,6 +30,7 @@ While out searching for clothes to steal, the party came across a Thornecrest ca
 | Darian Thornecrest | jackle1127 | Wizard 2 | Human | Active |
 | ~~Kaelen "Slick" Thornecrest~~ | jackle1127 | Wizard 2 | Human | DECEASED |
 
-## Incoming Character
+## Loose Ends
 
-Darian Thornecrest is Kaelen's older brother and the family's golden heir. Lord Garran sent him to track down Kaelen and retrieve a stolen Bag of Holding containing documents linking House Thornecrest to the Argent Circle (a secret cabal of nobles and mages). He has been tracking Kaelen for months and doesn't know he's dead yet.
+- Darian's mission: find the Bag of Holding (contains documents linking House Thornecrest to the Argent Circle). Last known location: Vaultspire.
+- Silver Oak feast: Dendros (or his look-alike) was attending the night of 2026-04-10 - party has not yet acted on this lead.
