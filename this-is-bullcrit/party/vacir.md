@@ -6,7 +6,7 @@
 **Class:** Rogue 2  
 **Race:** Variant Human  
 **Level:** 2  
-**HP:** 13  
+**HP:** 17  
 **Status:** Active
 
 ## Ability Scores

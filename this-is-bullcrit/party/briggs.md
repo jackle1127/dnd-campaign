@@ -6,7 +6,7 @@
 **Class:** Barbarian 2  
 **Race:** Orc of Exandria  
 **Level:** 2  
-**HP:** 19  
+**HP:** 25  
 **Status:** Active
 
 ## Ability Scores

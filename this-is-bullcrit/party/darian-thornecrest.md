@@ -6,7 +6,7 @@
 **Class:** Wizard 2  
 **Race:** Human  
 **Level:** 2  
-**HP:** 10  
+**HP:** 12  
 **Status:** Active
 
 ## Ability Scores

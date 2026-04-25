@@ -6,7 +6,7 @@
 **Class:** Warlock 2  
 **Race:** Tiefling  
 **Level:** 2  
-**HP:** 13  
+**HP:** 17  
 **Status:** Active
 
 ## Ability Scores

@@ -6,7 +6,7 @@
 **Class:** Druid 2  
 **Race:** Eladrin (Variant)  
 **Level:** 2  
-**HP:** 13  
+**HP:** 19  
 **Status:** Active
 
 ## Ability Scores
