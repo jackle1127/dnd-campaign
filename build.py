@@ -59,7 +59,7 @@ def embed_images(html, md_file_dir):
     return re.sub(r'src="([^"]+)"', replace_src, html)
 
 def render_pages(sections):
-    md = markdown.Markdown(extensions=["tables", "fenced_code"])
+    md = markdown.Markdown(extensions=["tables", "fenced_code", "pymdownx.tilde"])
     pages = {}
     for _, files in sections:
         for f in list(files):
