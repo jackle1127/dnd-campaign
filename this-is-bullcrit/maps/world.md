@@ -1,5 +1,7 @@
 # Terra Nova - World Overview
 
+![](Terra_Nova.png)
+
 Scale: 1 inch = 100 miles
 
 ## Regions

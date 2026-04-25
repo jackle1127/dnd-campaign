@@ -5,7 +5,7 @@
 **Race:** Dhampir  
 **Level:** 2  
 **HP:** 18  
-**Status:** Active
+**Status:** Left Party
 
 ## Ability Scores
 

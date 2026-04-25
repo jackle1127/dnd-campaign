@@ -1,7 +1,51 @@
 ![](darian-thornecrest.png)
-# Darian Thornecrest - Character Doc
 
-## Darian Thornecrest - Backstory
+# Darian Thornecrest
+
+**Player:** jackle1127  
+**Class:** Wizard 2  
+**Race:** Human  
+**Level:** 2  
+**HP:** 10  
+**Status:** Active
+
+## Ability Scores
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 10 (+0) | 12 (+1) | 15 (+2) | 14 (+2) | 13 (+1) |
+
+## Combat
+
+| AC | Initiative | Speed | Proficiency |
+|----|-----------|-------|-------------|
+| 10 (Unarmored) | +0 | 30 ft. | +2 |
+
+**Saving Throws:** STR -1 | DEX +0 | CON +1 | INT* +4 | WIS* +4 | CHA +1  
+*proficient
+
+**Skills (proficient):** Arcana +4, History +4, Insight +4, Persuasion +3
+
+**Passive Perception:** 12
+
+## Features and Traits
+
+### Wizard Features
+**Divination Savant:** Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved.
+**Portent:** Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to...
+**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard...
+**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if...
+**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and more choices are available in other sources. Your...
+
+### Feats
+**Hero's Journey Boon:** At your GM's discretion you can be granted a Hero's Journey Boon.
+**Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
+
+*Last updated: 2026-04-24*
+
+---
+
+## Backstory
 
 Darian Thornecrest is the eldest son of House Thornecrest and the family's golden heir - everything his brother Kaelen was supposed to be and wasn't. Where Kaelen burned bright and chaotic, Darian was steady, polished, and exactly what a Thornecrest was meant to look like.
 
@@ -72,42 +116,29 @@ The not-very-wise side: He has no instinct for people. He can't tell when he's g
 The gutted side: Kaelen was the only person in his family who ever made Darian feel anything unscripted. He misses him and has absolutely no idea how to process that.
 
 ## Family of House Thornecrest
+
 ### Lord Garran Thornecrest - The Patriarch
 Cold, calculating patriarch. Sent Darian because it's efficient, not because he cares. Doesn't know and doesn't need to know that Darian has complicated feelings about any of this.
+
 ### Lady Merisse Thornecrest - The Matriarch
 Quietly heartbroken about Kaelen, maintains perfect appearances. Slipped Darian an extra letter before he left. He hasn't opened it yet.
+
 ### Darian Thornecrest - The Heir
 The eldest son and pride of House Thornecrest. Brilliant, disciplined, and exactly what a Thornecrest is supposed to look like. Carries the weight of the family's expectations without acknowledging it as weight.
+
 ### Liora Thornecrest - The Exile
 The monk. Left the family. Darian respects her more than he lets on.
+
 ### Kaelen "Slick" Thornecrest - The Outcast
 Deceased. Darian doesn't know yet.
 
 ## Timeline of Darian Thornecrest
+
 ### Early Life
 Darian attends and graduates Arcanum Lyceum with distinction. Returns to Bramblewood as the family's heir and pride.
+
 ### The Mission
 After Kaelen's expulsion: Lord Garran dispatches Darian to handle the situation. Darian spends months tracking Kaelen's trail from Bramblewood to Sea Mist to Vaultspire.
+
 ### Current
 Darian arrives in the area with considerable funds from House Thornecrest. Loses them under circumstances to be determined by the DM. Finds the crew. Learns that Kaelen is dead. Decides - or is forced - to stay.
-## TL;DR for the DM
-Darian is the golden heir of House Thornecrest - brilliant, arrogant, and completely unprepared for the real world. He was sent to quietly retrieve his brother and the Bag of Holding (which contains sensitive documents that could embarrass the family). He arrived with a lot of Thornecrest gold. He no longer has it.
-He doesn't know Kaelen is dead yet. When he finds out, he won't show it - but it will break something in him. He blames himself without knowing he blames himself.
-He needs the crew more than he will ever admit. He will be condescending to them. He will be wrong about them. Over time he should come to realize that these people - criminals, misfits, nobody's idea of allies - are the first people he's ever had to actually earn.
-His mother slipped him a letter before he left. He hasn't opened it. It's a good hook.
-The documents in the Bag of Holding haven't surfaced yet. If they do, House Thornecrest is in serious trouble and Darian becomes both an asset and a liability to the crew.
-Play him smart, play him cold, and let the cracks show slowly.
-
----
-
-## D&D Beyond Stats *(as of 2026-04-10)*
-
-**Class:** Wizard 2 | **Race:** Human | **Level:** 2 | **HP:** 10 | **Status:** Active
-
-| STR | DEX | CON | INT | WIS | CHA |
-|-----|-----|-----|-----|-----|-----|
-| 8 (-1) | 10 (+0) | 12 (+1) | 15 (+2) | 14 (+2) | 13 (+1) |
-
-**Spells:** Absorb Elements, Detect Magic, Find Familiar, Fire Bolt, Identify, Mage Armor, Mage Hand, Magic Missile, Minor Illusion, Shield, Sleep
-
-**Inventory:** Quarterstaff, Backpack, Clothes, Fine, Signet Ring, Spellbook, Crystal, Book, Ink (1 ounce bottle), Ink Pen, Parchment (one sheet), Little Bag of Sand, Small Knife
