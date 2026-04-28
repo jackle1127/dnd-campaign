@@ -60,4 +60,16 @@ Common, Elvish, Gnomish
 
 Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Thieves' Tools, Crowbar, Traveler's Clothes, 35 GP
 
+## Backstory
+
+Fib Noodlecork spent the better part of sixty years as a fixture of Sea Mist's underworld - not as a thug or a fence, but as the entertainment. He played lute at every dive, gambling den, and smugglers' meeting hall on the island, and people talked freely around him because old jolly gnomes blending into the furniture tend to hear everything. Over the decades he became the most well-connected information broker the city had never heard of, running a quiet side business selling secrets to whoever needed them most.
+
+He got too comfortable. A document passed through his hands - something linking a noble house to the Argent Circle - and he held onto it a day too long, trying to figure out who would pay the most. The Argent Circle found out first. They didn't kill him; they had him arrested and buried in Vaultspire, which they apparently found funnier.
+
+He did his time in the Black Pits, made friends with the lunch lady, and kept his head down. When word of a breakout circulated among the prisoners, Fib was already three steps ahead - he had been quietly mapping guard rotations for months through the same habit that made him rich in Sea Mist: playing music no one pays attention to.
+
+He wasn't in the group that escaped in the supply crates, but the chaos of that night gave him his own opening. He walked out the front gate in a stolen guard uniform, lute under one arm, whistling.
+
+He's been making his way north toward Ironwood Fortress ever since. He still has a copy of that document.
+
 *Last updated: 2026-04-27*
