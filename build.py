@@ -172,21 +172,19 @@ body::before {
   align-self: stretch;
   width: 268px;
   overflow: hidden;
-  margin-right: -16px;
   z-index: 10;
-  transition: width 0.28s ease, margin-right 0.28s ease;
+  transition: width 0.28s ease;
 }
 
 .nav-wrapper.nav-collapsed {
-  width: 0;
-  margin-right: 0;
+  width: 16px;
 }
 
 nav {
   position: relative;
   z-index: 10;
-  width: 268px;
-  min-width: 268px;
+  width: 252px;
+  min-width: 252px;
   height: 100%;
   background: linear-gradient(175deg, rgba(10, 7, 3, 0.98) 0%, rgba(15, 10, 4, 0.96) 100%);
   overflow-y: auto;
@@ -199,9 +197,10 @@ nav {
 }
 
 .sidebar-toggle {
-  flex-shrink: 0;
-  align-self: center;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 11;
   width: 16px;
   height: 48px;
@@ -591,8 +590,8 @@ html = f"""<!DOCTYPE html>
   </div>
   {nav_html}
 </nav>
-</div>
 <button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()" title="Toggle sidebar">&#8249;</button>
+</div>
 <main id="main-scroll">
   <div id="content"></div>
 </main>
