@@ -69,4 +69,10 @@ He spent decades traveling the ice region - Frostguard to Winter's Edge to Frost
 
 He headed south not for any particular reason. Old enough to be curious, young enough to still care. He crossed through Tripoint and into the Central Heartlands and found the weather considerably more agreeable. He's been wandering ever since, playing wherever there's a warm fire and a willing audience. He heard Ironwood Fortress has a decent inn. He's been making his way there.
 
+## The Third Journal
+
+At the Waypost Inn in Tripoint, he overheard two well-dressed strangers arguing in a back corner. One said: "If Dendros finds out the shipment never reached Vaultspire, we're all dead." The other passed a sealed document across the table. Fib wrote it in his third journal, as he always does, and thought nothing more of it.
+
+Since crossing into the Heartlands, he's had the feeling he's being followed. A man in a gray cloak. Never close enough to approach, never far enough to ignore.
+
 *Last updated: 2026-04-27*
