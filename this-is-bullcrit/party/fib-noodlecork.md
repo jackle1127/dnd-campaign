@@ -3,10 +3,10 @@
 # Fib Noodlecork
 
 **Player:** jackle1127  
-**Class:** Bard 1  
+**Class:** Bard 2  
 **Race:** Forest Gnome  
-**Level:** 1  
-**HP:** 10  
+**Level:** 2  
+**HP:** 17  
 **Status:** Active
 
 ## Ability Scores
@@ -24,7 +24,7 @@
 **Saving Throws:** STR -1 | DEX* +5 | CON +2 | INT +0 | WIS* +3 | CHA +2  
 *proficient
 
-**Skills (proficient):** Sleight of Hand +5, Stealth +5
+**Skills (proficient):** Sleight of Hand +9 (Expertise), Stealth +9 (Expertise)
 
 **Passive Perception:** 11  
 **Darkvision:** 60 ft.
@@ -33,7 +33,9 @@
 
 ### Bard Features
 **Bardic Inspiration (2/day):** As a Bonus Action, choose one creature other than yourself within 60 ft. who can hear you. That creature gains one Bardic Inspiration die (d6). Once within the next 10 minutes, the creature can roll that die and add the number rolled to one ability check, attack roll, or saving throw it makes.  
-**Spellcasting (CHA):** Spell Save DC 12, Spell Attack +4
+**Spellcasting (CHA):** Spell Save DC 12, Spell Attack +4  
+**Jack of All Trades:** Add half your proficiency bonus (+1) to any ability check that doesn't already use your proficiency bonus.  
+**Expertise:** Double proficiency bonus for Sleight of Hand (+9) and Stealth (+9).
 
 ### Forest Gnome Traits
 **Gnomish Cunning:** Advantage on INT, WIS, and CHA saving throws against magic.  
@@ -58,4 +60,4 @@ Common, Elvish, Gnomish
 
 Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Thieves' Tools, Crowbar, Traveler's Clothes, 35 GP
 
-*Last updated: 2026-04-27*
+*Last updated: 2026-04-28*
