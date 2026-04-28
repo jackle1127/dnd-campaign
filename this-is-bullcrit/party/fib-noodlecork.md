@@ -1,4 +1,4 @@
-![](../../fib-noodlecork.png)
+![](fib-noodlecork.png)
 
 # Fib Noodlecork
 
