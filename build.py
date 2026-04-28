@@ -46,16 +46,17 @@ def render_nav(sections):
     html += "</ul>"
     return html
 
+REPO_ROOT = Path(__file__).parent
+
 def embed_images(html, md_file_dir):
     def replace_src(m):
         src = m.group(1)
-        if src.startswith("http"):
+        if src.startswith("http") or src.startswith("data:"):
             return m.group(0)
         img_path = (md_file_dir / src).resolve()
         if img_path.exists():
-            mime = mimetypes.guess_type(str(img_path))[0] or "image/png"
-            data = base64.b64encode(img_path.read_bytes()).decode()
-            return f'src="data:{mime};base64,{data}"'
+            rel = img_path.relative_to(REPO_ROOT)
+            return f'src="{rel.as_posix()}"'
         return m.group(0)
     return re.sub(r'src="([^"]+)"', replace_src, html)
 
