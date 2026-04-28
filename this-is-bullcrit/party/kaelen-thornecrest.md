@@ -3,10 +3,10 @@
 # Kaelen "Slick" Thornecrest
 
 **Player:** jackle1127  
-**Class:** Wizard 2  
+**Class:** Wizard 2
 **Race:** Human  
-**Level:** 2  
-**HP:** 12  
+**Level:** 2
+**HP:** 10
 **Status:** DECEASED
 
 ## Ability Scores
@@ -31,23 +31,33 @@
 ## Features and Traits
 
 ### Wizard Features
+**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the...
+**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the...
+**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and...
+**Proficiencies:** Armor: None Weapons: Daggers, darts, slings, quarterstaffs, light crossbows Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+**Hit Points:** Hit Dice: 1d6 per wizard level Hit Points at 1st Level: 6 + your Constitution modifier Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per wizard level after 1st
 **Conjuration Savant:** Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved.
-**Minor Conjuration:** Starting at 2nd level when you select this school, you can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you. This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form must be that of a nonmagical object that you have...
-**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard...
-**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if...
-**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and more choices are available in other sources. Your...
+**Minor Conjuration:** Starting at 2nd level when you select this school, you can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you. This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form...
+**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the...
+**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the...
+**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and...
+**Proficiencies:** Armor: None Weapons: Daggers, darts, slings, quarterstaffs, light crossbows Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+**Hit Points:** Hit Dice: 1d6 per wizard level Hit Points at 1st Level: 6 + your Constitution modifier Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per wizard level after 1st
 
 ### Human Traits
 **Resourceful:** You gain Heroic Inspiration whenever you finish a Long Rest.
 **Skillful:** You gain proficiency in one skill of your choice.
 **Versatile:** You gain an Origin feat of your choice.
 
+### Noble Background
+**Position of Privilege:** Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a...
+
 ### Feats
 **Skilled:** Origin Feat You gain proficiency in any combination of three skills or tools of your choice. Repeatable. You can take this feat more than once.
 **Hero's Journey Boon:** At your GM's discretion you can be granted a Hero's Journey Boon.
 **Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
-*Last updated: 2026-04-24*
+*Last updated: 2026-04-28*
 
 ---
 
@@ -133,7 +143,7 @@ It was the only crime Kaelen ever committed that left him poorer in coin - but r
 
 ## D&D Beyond Stats *(as of 2026-04-28)*
 
-**Class:** Wizard 2 | **Race:** Human | **Level:** 2 | **HP:** 10 | **Status:** DECEASED
+**Class:** Wizard 2
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|

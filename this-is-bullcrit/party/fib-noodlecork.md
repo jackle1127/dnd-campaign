@@ -3,25 +3,25 @@
 # Fib Noodlecork
 
 **Player:** jackle1127  
-**Class:** Bard 2  
+**Class:** Bard 2
 **Race:** Forest Gnome  
-**Level:** 2  
-**HP:** 17  
+**Level:** 2
+**HP:** 13
 **Status:** Active
 
 ## Ability Scores
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
-| 8 (-1) | 14 (+2) | 15 (+2) | 11 (+0) | 12 (+1) | 15 (+2) |
+| 8 (-1) | 14 (+2) | 13 (+1) | 10 (+0) | 12 (+1) | 15 (+2) |
 
 ## Combat
 
 | AC | Initiative | Speed | Proficiency |
 |----|-----------|-------|-------------|
-| 13 (Leather) | +4 | 25 ft. | +2 |
+| 12 (Unarmored) | +2 | 30 ft. | +2 |
 
-**Saving Throws:** STR -1 | DEX* +4 | CON +2 | INT +0 | WIS* +3 | CHA +2  
+**Saving Throws:** STR -1 | DEX* +4 | CON +1 | INT +0 | WIS +1 | CHA* +4  
 *proficient
 
 **Skills (proficient):** Performance +6 (Expertise), Persuasion +6 (Expertise), Deception +4, Arcana +2, History +2  
@@ -31,21 +31,24 @@
 ## Features and Traits
 
 ### Bard Features
-**Bardic Inspiration (2/day):** As a Bonus Action, choose one creature other than yourself within 60 ft. who can hear you. That creature gains one Bardic Inspiration die (d6). Once within the next 10 minutes, the creature can roll that die and add the number rolled to one ability check, attack roll, or saving throw it makes.  
-**Spellcasting (CHA):** Spell Save DC 12, Spell Attack +4  
-**Jack of All Trades:** Add half your proficiency bonus (+1) to any ability check that doesn't already use your proficiency bonus.  
-**Expertise:** Double proficiency bonus for Performance (+6) and Persuasion (+6).
+**Bardic Inspiration:** You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6. Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains...
+**Spellcasting:** You have learned to cast spells through your bardic arts. Cantrips. You know two cantrips of your choice from the Bard spell list. Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list. When you reach Bard levels 4 and 10,...
+**Expertise:** You gain Expertise in two of your skill proficiencies of your choice. At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.
+**Jack of All Trades:** You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency...
 
-### Forest Gnome Traits
-**Gnomish Cunning:** Advantage on INT, WIS, and CHA saving throws against magic.  
-**Minor Illusion:** You know the Minor Illusion cantrip.  
-**Speak with Animals:** You always have Speak with Animals prepared; it doesn't count against your prepared spells.  
-**Gnomish Lineage:** Forest Gnome - speak with Small or smaller beasts.
+### Gnome Traits
+**Darkvision:** You have Darkvision with a range of 60 feet.
+**Gnomish Cunning:** You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
+**Gnomish Lineage:** You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage): Forest Gnome. You...
+**Gnomish Lineage Spells:** Whichever Gnomish Lineage you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with that trait.
 
 ### Sage Background
-**Researcher:** When you attempt to learn or recall a piece of lore, if you don't know the information, you often know where and from whom you can obtain it.  
-**Tool Proficiency:** Calligrapher's Supplies  
-**Magic Initiate (Wizard, CHA):** Cantrips: Chill Touch, Message. Level 1 spell (1/day): Find Familiar.
+**Magic Initiate (Wizard)**
+
+### Feats
+**Magic Initiate (Wizard):** Origin Feat You gain the following benefits. Two Cantrips. You learn two cantrips of your choice from the Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat). Level 1 Spell. Choose a level 1 spell from the same...
+**Sage Ability Score Improvements:** The Sage Background allows you to choose between Constitution, Intelligence, and Wisdom. Increase one of these scores by 2 and another one by 1, or increase all three by 1. None of these increases can raise a score above 20.
+**Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
 ## Spells
 
@@ -75,13 +78,13 @@ At the Waypost Inn in Tripoint, he overheard two well-dressed strangers arguing 
 
 Since crossing into the Heartlands, he's had the feeling he's being followed. A man in a gray cloak. Never close enough to approach, never far enough to ignore.
 
-*Last updated: 2026-04-27*
+*Last updated: 2026-04-28*
 
 ---
 
 ## D&D Beyond Stats *(as of 2026-04-28)*
 
-**Class:** Bard 2 | **Race:** Gnome | **Level:** 2 | **HP:** 13 | **Status:** Active
+**Class:** Bard 2
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|

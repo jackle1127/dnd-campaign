@@ -3,10 +3,10 @@
 # Darian Thornecrest
 
 **Player:** jackle1127  
-**Class:** Wizard 2  
+**Class:** Wizard 2
 **Race:** Human  
-**Level:** 2  
-**HP:** 12  
+**Level:** 2
+**HP:** 10
 **Status:** Active
 
 ## Ability Scores
@@ -31,17 +31,29 @@
 ## Features and Traits
 
 ### Wizard Features
+**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the...
+**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the...
+**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and...
+**Proficiencies:** Armor: None Weapons: Daggers, darts, slings, quarterstaffs, light crossbows Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+**Hit Points:** Hit Dice: 1d6 per wizard level Hit Points at 1st Level: 6 + your Constitution modifier Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per wizard level after 1st
 **Divination Savant:** Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved.
-**Portent:** Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to...
-**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard...
-**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if...
-**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and more choices are available in other sources. Your...
+**Portent:** Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with...
+**Spellcasting:** As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See Spells Rules for the general rules of spellcasting and the Spells Listing for the wizard spell list. Cantrips At 1st level, you know three cantrips of your choice from the...
+**Arcane Recovery:** You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the...
+**Arcane Tradition:** When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation is detailed at the end of the class description, and...
+**Proficiencies:** Armor: None Weapons: Daggers, darts, slings, quarterstaffs, light crossbows Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+**Hit Points:** Hit Dice: 1d6 per wizard level Hit Points at 1st Level: 6 + your Constitution modifier Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per wizard level after 1st
+
+### Human Traits
+
+### Noble Background
+**Position of Privilege:** Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a...
 
 ### Feats
 **Hero's Journey Boon:** At your GM's discretion you can be granted a Hero's Journey Boon.
 **Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
-*Last updated: 2026-04-24*
+*Last updated: 2026-04-28*
 
 ---
 
@@ -147,7 +159,7 @@ Darian arrives in the area with considerable funds from House Thornecrest. Loses
 
 ## D&D Beyond Stats *(as of 2026-04-28)*
 
-**Class:** Wizard 2 | **Race:** Human | **Level:** 2 | **HP:** 10 | **Status:** Active
+**Class:** Wizard 2
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|

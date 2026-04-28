@@ -173,11 +173,53 @@ nav {
   min-width: 268px;
   background: linear-gradient(175deg, rgba(10, 7, 3, 0.98) 0%, rgba(15, 10, 4, 0.96) 100%);
   overflow-y: auto;
+  overflow-x: hidden;
   border-right: 1px solid rgba(180, 130, 40, 0.22);
   box-shadow: 4px 0 32px rgba(0, 0, 0, 0.75), inset -1px 0 0 rgba(180, 130, 40, 0.07);
   scrollbar-width: thin;
   scrollbar-color: rgba(180, 130, 40, 0.22) transparent;
   animation: flicker 14s ease-in-out infinite;
+  transition: width 0.28s ease, min-width 0.28s ease, border-color 0.28s ease;
+}
+
+nav.nav-collapsed {
+  width: 0;
+  min-width: 0;
+  border-right-color: transparent;
+  overflow: hidden;
+}
+
+.sidebar-toggle {
+  position: fixed;
+  left: 268px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15;
+  width: 16px;
+  height: 48px;
+  background: rgba(12, 8, 3, 0.97);
+  border: 1px solid rgba(180, 130, 40, 0.28);
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  color: rgba(180, 130, 40, 0.6);
+  cursor: pointer;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.28s ease, color 0.15s ease;
+  padding: 0;
+  line-height: 1;
+  user-select: none;
+}
+
+.sidebar-toggle:hover { color: #f0d080; }
+
+.sidebar-toggle.nav-collapsed {
+  left: 0;
+  border-left: 1px solid rgba(180, 130, 40, 0.28);
+  border-right: none;
+  border-radius: 4px 0 0 4px;
 }
 
 /* Faint stone texture behind nav */
@@ -547,6 +589,7 @@ html = f"""<!DOCTYPE html>
   </div>
   {nav_html}
 </nav>
+<button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()" title="Toggle sidebar">&#8249;</button>
 <main id="main-scroll">
   <div id="content"></div>
 </main>
@@ -579,6 +622,28 @@ function restoreSections() {{
 }}
 
 restoreSections();
+
+function toggleSidebar() {{
+  var nav = document.querySelector('nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var collapsed = nav.classList.toggle('nav-collapsed');
+  btn.classList.toggle('nav-collapsed', collapsed);
+  btn.innerHTML = collapsed ? '&#8250;' : '&#8249;';
+  try {{ localStorage.setItem('sidebarCollapsed', collapsed ? '1' : '0'); }} catch(e) {{}}
+}}
+
+(function() {{
+  try {{
+    if (localStorage.getItem('sidebarCollapsed') === '1') {{
+      var nav = document.querySelector('nav');
+      var btn = document.getElementById('sidebar-toggle');
+      nav.classList.add('nav-collapsed');
+      btn.classList.add('nav-collapsed');
+      btn.innerHTML = '&#8250;';
+      btn.style.left = '0';
+    }}
+  }} catch(e) {{}}
+}})();
 
 function show(slug) {{
   var content = document.getElementById('content');
