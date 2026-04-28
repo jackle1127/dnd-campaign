@@ -190,11 +190,10 @@ nav.nav-collapsed {
 }
 
 .sidebar-toggle {
-  position: fixed;
-  left: 268px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 15;
+  position: relative;
+  z-index: 11;
+  flex-shrink: 0;
+  align-self: center;
   width: 16px;
   height: 48px;
   background: rgba(12, 8, 3, 0.97);
@@ -207,15 +206,13 @@ nav.nav-collapsed {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: left 0.28s ease, color 0.15s ease;
+  transition: color 0.15s ease;
   padding: 0;
   line-height: 1;
   user-select: none;
 }
 
 .sidebar-toggle:hover { color: #f0d080; }
-
-.sidebar-toggle.nav-collapsed { left: 0; }
 
 /* Faint stone texture behind nav */
 nav::before {
