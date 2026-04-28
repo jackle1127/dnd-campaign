@@ -72,10 +72,22 @@ He spent decades traveling the ice region - Frostguard to Winter's Edge to Frost
 
 He headed south not for any particular reason. Old enough to be curious, young enough to still care. He crossed through Tripoint and into the Central Heartlands and found the weather considerably more agreeable. He's been wandering ever since, playing wherever there's a warm fire and a willing audience. He heard Ironwood Fortress has a decent inn. He's been making his way there.
 
+## The Lute of Drawn Tongues
+
+Before he left Frostguard, an elder at the last longhouse pressed a lute into his hands. Old thing - wood so dark it looked like it had been pulled from the bottom of a frozen lake. The elder said it had passed through a dozen hands before his, always ending up with someone who had a gift for listening.
+
+Fib never questioned why it worked. He assumed it was skill. When he played, people talked - not because they were charmed or coerced, but because something in the resonance loosened the tight places in them. Merchants would lean across the table and tell him things their partners didn't know. Soldiers would describe orders they were supposed to keep quiet. Strangers would confess debts and regrets and names between one song and the next. His journals are full of this. He thought he was just good at his trade.
+
+Somewhere between Tripoint and the Heartlands, it disappeared. He woke up at a roadside inn and it was gone. No signs of a break-in, no missing coin - just the lute, and nothing else. He's been playing on a borrowed instrument since. The music works. It just doesn't *work*. People are polite. They don't confide.
+
+He didn't understand what he had until he lost it.
+
 ## The Third Journal
 
-At the Waypost Inn in Tripoint, he overheard two well-dressed strangers arguing in a back corner. One said: "If Dendros finds out the shipment never reached Vaultspire, we're all dead." The other passed a sealed document across the table. Fib wrote it in his third journal, as he always does, and thought nothing more of it.
+At the Waypost Inn in Tripoint - the last night he had the lute - he overheard two well-dressed strangers arguing in a back corner. One said: "If Dendros finds out the shipment never reached Vaultspire, we're all dead." The other passed a sealed document across the table. Fib wrote it in his third journal, as he always does.
 
 Since crossing into the Heartlands, he's had the feeling he's being followed. A man in a gray cloak. Never close enough to approach, never far enough to ignore.
+
+He thinks whoever took the lute knows what it does. They watched him long enough to understand why his journals have what they have. They wanted him disarmed before they moved on him directly - or they wanted the lute for themselves and are deciding what to do about the man who carried it.
 
 *Last updated: 2026-04-28*
