@@ -62,14 +62,14 @@ Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Thieves' Tools, Crowbar, Tra
 
 ## Backstory
 
-Fib Noodlecork spent the better part of sixty years as a fixture of Sea Mist's underworld - not as a thug or a fence, but as the entertainment. He played lute at every dive, gambling den, and smugglers' meeting hall on the island, and people talked freely around him because old jolly gnomes blending into the furniture tend to hear everything. Over the decades he became the most well-connected information broker the city had never heard of, running a quiet side business selling secrets to whoever needed them most.
+Fib Noodlecork grew up in Nocturnia, deep in the vampire kingdom's shadow. His village sat at the edge of Eboncrest, far enough from Sanguine Keep to be mostly ignored, close enough to know better than to draw attention. He learned early that a cheerful gnome with a lute was invisible - vampires don't care about the entertainment, they care about the blood - and invisible meant safe. He played the courts, the shadow taverns, the feeding halls where nobles negotiated over goblets of things he tried not to think about. People talked. He listened. He got very good at both.
 
-He got too comfortable. A document passed through his hands - something linking a noble house to the Argent Circle - and he held onto it a day too long, trying to figure out who would pay the most. The Argent Circle found out first. They didn't kill him; they had him arrested and buried in Vaultspire, which they apparently found funnier.
+He spent decades brokering information across Nocturnia, surviving not through strength but through being the least threatening creature in every room. When he finally slipped out south through the forest toward the Central Heartlands, he brought his lute, his tools, and a head full of secrets about the Council of 12 that he has never once told anyone.
 
-He did his time in the Black Pits, made friends with the lunch lady, and kept his head down. When word of a breakout circulated among the prisoners, Fib was already three steps ahead - he had been quietly mapping guard rotations for months through the same habit that made him rich in Sea Mist: playing music no one pays attention to.
+He was making a comfortable living in the heartlands when a document came through his network - something linking a noble house to the Argent Circle - and he held onto it one day too long. The Argent Circle had him arrested and sent to Vaultspire, apparently deciding that was more insulting than a clean death.
 
-He wasn't in the group that escaped in the supply crates, but the chaos of that night gave him his own opening. He walked out the front gate in a stolen guard uniform, lute under one arm, whistling.
+He did his time in the Black Pits quietly, mapping guard rotations out of old habit. When the chaos of a breakout swept through the prison, Fib walked out the front gate in a stolen guard's uniform, lute under one arm, whistling.
 
-He's been making his way north toward Ironwood Fortress ever since. He still has a copy of that document.
+He's been making his way toward Ironwood Fortress ever since. He still has a copy of that document.
 
 *Last updated: 2026-04-27*
