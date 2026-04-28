@@ -539,7 +539,7 @@ html = f"""<!DOCTYPE html>
   <div class="nav-header">
     <div class="nav-title">
       <span class="nav-sword">&#9876;</span>
-      <a href="#" onclick="show('{first_slug}'); return false;" style="color:inherit;text-decoration:none;border:none;">This Is<br>Bullcrit</a>
+      <a href="#" onclick="show('{first_slug}'); history.replaceState(null, '', location.pathname); return false;" style="color:inherit;text-decoration:none;border:none;cursor:pointer;">This Is<br>Bullcrit</a>
       <span class="nav-sword">&#9876;</span>
     </div>
     <div class="nav-subtitle">Campaign Chronicle</div>
