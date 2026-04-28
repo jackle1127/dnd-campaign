@@ -59,7 +59,7 @@
 
 ## Spells
 
-**Cantrips:** Fire Bolt, Mage Hand
+**Cantrips:** Fire Bolt, Mage Hand  
 **1st Level:** Charm Person, Detect Magic, Feather Fall, Find Familiar, Grease, Mage Armor, Magic Missile, Thunderwave, Unseen Servant
 
 ## Languages

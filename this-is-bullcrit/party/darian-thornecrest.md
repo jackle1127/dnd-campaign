@@ -55,7 +55,7 @@
 
 ## Spells
 
-**Cantrips:** Fire Bolt, Mage Hand, Minor Illusion
+**Cantrips:** Fire Bolt, Mage Hand, Minor Illusion  
 **1st Level:** Absorb Elements, Detect Magic, Find Familiar, Identify, Mage Armor, Magic Missile, Shield, Sleep, Thunderwave
 
 ## Languages

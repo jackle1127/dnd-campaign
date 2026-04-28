@@ -53,7 +53,7 @@
 
 ## Spells
 
-**1st Level:** Cure Wounds
+**1st Level:** Cure Wounds  
 **2nd Level:** Misty Step
 
 ## Languages

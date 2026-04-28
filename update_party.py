@@ -154,7 +154,7 @@ def build_spells_section(char):
         label = level_names.get(lvl, f'Level {lvl}')
         names = ', '.join(sorted(set(by_level[lvl])))
         lines.append(f'**{label}:** {names}')
-    return '\n'.join(lines)
+    return '  \n'.join(lines)
 
 def build_languages_section(char):
     """Build ## Languages section content."""

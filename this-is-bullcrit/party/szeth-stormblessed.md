@@ -50,7 +50,7 @@
 
 ## Spells
 
-**Cantrips:** Eldritch Blast, Fire Bolt, Frostbite, Thaumaturgy
+**Cantrips:** Eldritch Blast, Fire Bolt, Frostbite, Thaumaturgy  
 **1st Level:** Hex, Tasha's Hideous Laughter
 
 ## Languages
