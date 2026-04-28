@@ -199,11 +199,11 @@ nav {
 .sidebar-toggle {
   position: absolute;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
+  bottom: 0;
   z-index: 11;
   width: 16px;
-  height: 48px;
+  height: auto;
   background: rgba(12, 8, 3, 0.97);
   border: 1px solid rgba(180, 130, 40, 0.28);
   border-left: none;
