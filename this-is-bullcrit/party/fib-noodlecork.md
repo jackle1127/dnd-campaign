@@ -76,3 +76,15 @@ At the Waypost Inn in Tripoint, he overheard two well-dressed strangers arguing 
 Since crossing into the Heartlands, he's had the feeling he's being followed. A man in a gray cloak. Never close enough to approach, never far enough to ignore.
 
 *Last updated: 2026-04-27*
+
+---
+
+## D&D Beyond Stats *(as of 2026-04-28)*
+
+**Class:** Bard 2 | **Race:** Gnome | **Level:** 2 | **HP:** 13 | **Status:** Active
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 14 (+2) | 13 (+1) | 10 (+0) | 12 (+1) | 15 (+2) |
+
+**Inventory:** Leather, Dagger, Dagger, Dagger, Dagger, Backpack, Pouch, Pouch, Lute, Thieves' Tools, Crowbar, Traveler's Clothes, Oil, Rations, Bedroll

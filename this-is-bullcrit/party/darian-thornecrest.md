@@ -142,3 +142,17 @@ After Kaelen's expulsion: Lord Garran dispatches Darian to handle the situation.
 
 ### Current
 Darian arrives in the area with considerable funds from House Thornecrest. Loses them under circumstances to be determined by the DM. Finds the crew. Learns that Kaelen is dead. Decides - or is forced - to stay.
+
+---
+
+## D&D Beyond Stats *(as of 2026-04-28)*
+
+**Class:** Wizard 2 | **Race:** Human | **Level:** 2 | **HP:** 10 | **Status:** Active
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 10 (+0) | 12 (+1) | 15 (+2) | 14 (+2) | 13 (+1) |
+
+**Spells:** Fire Bolt, Mage Hand, Minor Illusion, Detect Magic, Identify, Find Familiar, Shield, Absorb Elements, Mage Armor, Magic Missile, Sleep, Thunderwave
+
+**Inventory:** Quarterstaff, Backpack, Clothes, Fine, Signet Ring, Spellbook, Crystal, Book, Ink (1 ounce bottle), Ink Pen, Parchment (one sheet), Little Bag of Sand, Small Knife
