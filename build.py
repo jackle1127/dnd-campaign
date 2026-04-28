@@ -539,7 +539,7 @@ html = f"""<!DOCTYPE html>
   <div class="nav-header">
     <div class="nav-title">
       <span class="nav-sword">&#9876;</span>
-      <div>This Is<br>Bullcrit</div>
+      <a href="#" onclick="show('{first_slug}'); return false;" style="color:inherit;text-decoration:none;border:none;">This Is<br>Bullcrit</a>
       <span class="nav-sword">&#9876;</span>
     </div>
     <div class="nav-subtitle">Campaign Chronicle</div>
