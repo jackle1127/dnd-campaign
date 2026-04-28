@@ -215,12 +215,7 @@ nav.nav-collapsed {
 
 .sidebar-toggle:hover { color: #f0d080; }
 
-.sidebar-toggle.nav-collapsed {
-  left: 0;
-  border-left: 1px solid rgba(180, 130, 40, 0.28);
-  border-right: none;
-  border-radius: 4px 0 0 4px;
-}
+.sidebar-toggle.nav-collapsed { left: 0; }
 
 /* Faint stone texture behind nav */
 nav::before {
