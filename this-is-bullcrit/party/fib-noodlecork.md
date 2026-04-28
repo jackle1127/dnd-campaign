@@ -63,12 +63,10 @@ Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Calligrapher's Supplies, Tra
 
 ## Backstory
 
-Fib Noodlecork grew up in Nocturnia, deep in the vampire kingdom's shadow. His village sat at the edge of Eboncrest, far enough from Sanguine Keep to be mostly ignored, close enough to know better than to draw attention. He learned young that a cheerful gnome with a lute was invisible to the undead - vampires don't care about the entertainment, they care about the blood - and invisible meant safe.
+Fib Noodlecork grew up in Frostguard, at the far northeastern edge of the world. It's a hard place - cold most of the year, dark half of it - and people there learn early to keep themselves entertained or go quietly mad. He picked the lute. By the time he was fifty he was good enough that the longhouses would let him eat for free in exchange for keeping the fire lively.
 
-He played the courts, the shadow taverns, the feeding halls where vampire nobles negotiated over goblets of things he tried not to think about. Over seventy years he built a life there: not a grand one, but a warm one. People liked him. He knew when to play loud and when to go quiet. He made himself useful without making himself noticed.
+He spent decades traveling the ice region - Frostguard to Winter's Edge to Frosthaven and back - playing wherever they'd have him, picking up stories along the way. He got good at listening. Merchants talk when the ale is flowing, and the ale flows when someone's playing. Over the years he filled three journals with things people probably didn't intend to tell him: trade disputes, old feuds, the names of people who owed money to other people who didn't exist anymore.
 
-He left not because he had to, but because he got old enough to want to see what the rest of the world looked like before he ran out of time to look. He slipped south through the dark forest at the edge of Nocturnia with his lute, a head full of vampire court lore about the Council of 12 that he has no particular plans to tell anyone.
-
-He's been wandering the Central Heartlands for a few years now, playing wherever there's a warm fire and a willing audience. He heard Ironwood Fortress has a decent inn. He's been making his way there.
+He headed south not for any particular reason. Old enough to be curious, young enough to still care. He crossed through Tripoint and into the Central Heartlands and found the weather considerably more agreeable. He's been wandering ever since, playing wherever there's a warm fire and a willing audience. He heard Ironwood Fortress has a decent inn. He's been making his way there.
 
 *Last updated: 2026-04-27*
