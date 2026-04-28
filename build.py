@@ -148,7 +148,7 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 2;
+  z-index: 50;
   overflow: hidden;
 }
 
@@ -189,11 +189,18 @@ nav.nav-collapsed {
   overflow: hidden;
 }
 
-.sidebar-toggle {
+.nav-wrapper {
   position: relative;
-  z-index: 11;
   flex-shrink: 0;
-  align-self: center;
+  align-self: stretch;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  right: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 11;
   width: 16px;
   height: 48px;
   background: rgba(12, 8, 3, 0.97);
@@ -570,6 +577,7 @@ html = f"""<!DOCTYPE html>
 </head>
 <body>
 <div class="embers" id="embers"></div>
+<div class="nav-wrapper">
 <nav>
   <div class="nav-header">
     <div class="nav-title">
@@ -582,6 +590,7 @@ html = f"""<!DOCTYPE html>
   {nav_html}
 </nav>
 <button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()" title="Toggle sidebar">&#8249;</button>
+</div>
 <main id="main-scroll">
   <div id="content"></div>
 </main>
