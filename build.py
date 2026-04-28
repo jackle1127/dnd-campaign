@@ -40,7 +40,7 @@ def render_nav(sections):
         for f in files:
             slug = slugify(f)
             title = f.stem.replace("-", " ").title()
-            html += f'<li><a href="#" onclick="show(\'{slug}\')">{title}</a></li>'
+            html += f'<li><a href="#{slug}" onclick="show(\'{slug}\'); return false;">{title}</a></li>'
         html += "</ul></li>"
     html += "</ul>"
     return html
