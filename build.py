@@ -116,6 +116,7 @@ body {
   color: #e8dcc0;
   display: flex;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   position: relative;
 }
@@ -366,6 +367,8 @@ main {
   z-index: 10;
   flex: 1;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   padding: 52px 72px 64px;
   background: rgba(10, 7, 3, 0.84);
   backdrop-filter: blur(3px);
@@ -546,6 +549,96 @@ main blockquote {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(180, 130, 40, 0.26); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(180, 130, 40, 0.46); }
+
+/* ── Mobile ───────────────────────────────────────────────────────────── */
+
+.nav-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 9;
+  backdrop-filter: blur(1px);
+}
+
+@media (max-width: 767px) {
+  body {
+    display: block;
+  }
+
+  .nav-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100dvh;
+    width: 284px;
+    overflow: hidden;
+    transform: translateX(0);
+    transition: transform 0.28s ease;
+    z-index: 100;
+  }
+
+  .nav-wrapper.nav-collapsed {
+    width: 284px;
+    transform: translateX(calc(-284px + 44px));
+  }
+
+  nav {
+    width: 240px;
+    min-width: 240px;
+    height: 100%;
+  }
+
+  .sidebar-toggle {
+    width: 44px;
+    font-size: 1.2em;
+  }
+
+  .nav-backdrop {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.28s ease;
+  }
+
+  .nav-backdrop.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  main {
+    position: fixed;
+    inset: 0;
+    padding: 28px 20px max(28px, env(safe-area-inset-bottom));
+    padding-left: 54px;
+  }
+
+  #content {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  main h1 { font-size: 1.45em; }
+  main h2 { font-size: 1.1em; }
+
+  #content > p:first-child > img {
+    max-width: 130px;
+    margin: 0 0 12px 16px;
+  }
+
+  main table {
+    font-size: 0.82em;
+  }
+
+  .section-label {
+    padding: 18px 20px 6px;
+    font-size: 0.62em;
+  }
+
+  nav li.section ul li a {
+    padding: 9px 20px 9px 28px;
+  }
+}
 """
 
 # ---------------------------------------------------------------------------
@@ -580,6 +673,7 @@ html = f"""<!DOCTYPE html>
 </head>
 <body>
 <div class="embers" id="embers"></div>
+<div class="nav-backdrop" id="nav-backdrop" onclick="closeSidebar()"></div>
 <div class="nav-wrapper">
 <nav>
   <div class="nav-header">
@@ -627,17 +721,32 @@ function restoreSections() {{
 
 restoreSections();
 
+function isMobile() {{ return window.innerWidth < 768; }}
+
 function toggleSidebar() {{
   var wrapper = document.querySelector('.nav-wrapper');
   var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('nav-backdrop');
   var collapsed = wrapper.classList.toggle('nav-collapsed');
   btn.innerHTML = collapsed ? '&#8250;' : '&#8249;';
+  if (backdrop) backdrop.classList.toggle('active', !collapsed && isMobile());
   try {{ localStorage.setItem('sidebarCollapsed', collapsed ? '1' : '0'); }} catch(e) {{}}
+}}
+
+function closeSidebar() {{
+  var wrapper = document.querySelector('.nav-wrapper');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('nav-backdrop');
+  wrapper.classList.add('nav-collapsed');
+  btn.innerHTML = '&#8250;';
+  if (backdrop) backdrop.classList.remove('active');
+  try {{ localStorage.setItem('sidebarCollapsed', '1'); }} catch(e) {{}}
 }}
 
 (function() {{
   try {{
-    if (localStorage.getItem('sidebarCollapsed') === '1') {{
+    var shouldCollapse = localStorage.getItem('sidebarCollapsed') === '1' || isMobile();
+    if (shouldCollapse) {{
       var wrapper = document.querySelector('.nav-wrapper');
       var btn = document.getElementById('sidebar-toggle');
       wrapper.classList.add('nav-collapsed');
@@ -657,6 +766,7 @@ function show(slug) {{
   var link = document.querySelector('nav a[onclick="show(\\'' + slug + '\\')"]');
   if (link) link.classList.add('active');
   window.location.hash = slug;
+  if (isMobile()) closeSidebar();
 }}
 
 var hash = window.location.hash.slice(1);
