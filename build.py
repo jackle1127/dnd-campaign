@@ -279,7 +279,7 @@ nav ul { list-style: none; padding-bottom: 28px; }
   align-items: center;
   gap: 6px;
   padding: 16px 20px 4px;
-  color: rgba(180, 130, 40, 0.45);
+  color: rgba(180, 130, 40, 0.75);
   font-family: 'Cinzel', serif;
   font-size: 0.58em;
   letter-spacing: 3px;
