@@ -154,7 +154,7 @@ body::before {
 
 .ember {
   position: absolute;
-  bottom: -4px;
+  bottom: -10px;
   width: 2px;
   height: 2px;
   border-radius: 50%;
