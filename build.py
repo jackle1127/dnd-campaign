@@ -272,6 +272,7 @@ nav::before {
 }
 
 nav ul { list-style: none; padding-bottom: 28px; }
+.section-items { padding-bottom: 0; }
 
 .section-label {
   display: flex;
@@ -319,6 +320,7 @@ nav ul { list-style: none; padding-bottom: 28px; }
 .section.collapsed .section-items {
   max-height: 0;
   opacity: 0;
+  pointer-events: none;
 }
 
 nav li.section ul li a {
