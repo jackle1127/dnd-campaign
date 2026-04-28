@@ -62,14 +62,12 @@ Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Thieves' Tools, Crowbar, Tra
 
 ## Backstory
 
-Fib Noodlecork grew up in Nocturnia, deep in the vampire kingdom's shadow. His village sat at the edge of Eboncrest, far enough from Sanguine Keep to be mostly ignored, close enough to know better than to draw attention. He learned early that a cheerful gnome with a lute was invisible - vampires don't care about the entertainment, they care about the blood - and invisible meant safe. He played the courts, the shadow taverns, the feeding halls where nobles negotiated over goblets of things he tried not to think about. People talked. He listened. He got very good at both.
+Fib Noodlecork grew up in Nocturnia, deep in the vampire kingdom's shadow. His village sat at the edge of Eboncrest, far enough from Sanguine Keep to be mostly ignored, close enough to know better than to draw attention. He learned young that a cheerful gnome with a lute was invisible to the undead - vampires don't care about the entertainment, they care about the blood - and invisible meant safe.
 
-He spent decades brokering information across Nocturnia, surviving not through strength but through being the least threatening creature in every room. When he finally slipped out south through the forest toward the Central Heartlands, he brought his lute, his tools, and a head full of secrets about the Council of 12 that he has never once told anyone.
+He played the courts, the shadow taverns, the feeding halls where vampire nobles negotiated over goblets of things he tried not to think about. Over seventy years he built a life there: not a grand one, but a warm one. People liked him. He knew when to play loud and when to go quiet. He made himself useful without making himself noticed.
 
-He was making a comfortable living in the heartlands when a document came through his network - something linking a noble house to the Argent Circle - and he held onto it one day too long. The Argent Circle had him arrested and sent to Vaultspire, apparently deciding that was more insulting than a clean death.
+He left not because he had to, but because he got old enough to want to see what the rest of the world looked like before he ran out of time to look. He slipped south through the dark forest at the edge of Nocturnia with his lute, a set of old lockpicks from a friend who owed him a favor, and a head full of secrets about the Council of 12 that he has no particular plans to tell anyone.
 
-He did his time in the Black Pits quietly, mapping guard rotations out of old habit. When the chaos of a breakout swept through the prison, Fib walked out the front gate in a stolen guard's uniform, lute under one arm, whistling.
-
-He's been making his way toward Ironwood Fortress ever since. He still has a copy of that document.
+He's been wandering the Central Heartlands for a few years now, playing wherever there's a warm fire and a willing audience. He heard Ironwood Fortress has a decent inn. He's been making his way there.
 
 *Last updated: 2026-04-27*
