@@ -46,4 +46,12 @@
 **Weapon Mastery:** Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency. Whenever you finish a Long Rest, you can change the kinds of weapons you chose.
 **Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
+## Languages
+
+Common, Common Sign Language, Thieves' Cant
+
+## Equipment
+
+Dagger x2
+
 *Last updated: 2026-04-28*

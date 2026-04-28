@@ -51,4 +51,17 @@
 ### Feats
 **Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
+## Spells
+
+**1st Level:** Cure Wounds
+**2nd Level:** Misty Step
+
+## Languages
+
+Common, Elvish, Druidic
+
+## Equipment
+
+Shield, Leather, Sickle, Shortbow, Backpack, Herbalism Kit, Staff, Oil x2, Rations x10, Rope, Bedroll, Tinderbox, Torch x10, Waterskin
+
 *Last updated: 2026-04-28*

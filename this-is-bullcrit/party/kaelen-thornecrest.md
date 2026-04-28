@@ -57,6 +57,19 @@
 **Hero's Journey Boon:** At your GM's discretion you can be granted a Hero's Journey Boon.
 **Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
+## Spells
+
+**Cantrips:** Fire Bolt, Mage Hand
+**1st Level:** Charm Person, Detect Magic, Feather Fall, Find Familiar, Grease, Mage Armor, Magic Missile, Thunderwave, Unseen Servant
+
+## Languages
+
+Common, Dwarvish, Goblin, Elvish
+
+## Equipment
+
+Quarterstaff
+
 *Last updated: 2026-04-28*
 
 ---
@@ -138,17 +151,3 @@ When Kaelen first arrived in Sea Mist, he survived by pickpocketing drunk patron
 She was tending bar for her father and grabbed his wrist without raising her voice or calling the Watch. Instead of exposing him, she quietly made him return what he'd taken, then fed him a slice of her homemade quiche before sending him on his way.
 
 It was the only crime Kaelen ever committed that left him poorer in coin - but richer in consequence.
-
----
-
-## D&D Beyond Stats *(as of 2026-04-28)*
-
-**Class:** Wizard 2
-
-| STR | DEX | CON | INT | WIS | CHA |
-|-----|-----|-----|-----|-----|-----|
-| 10 (+0) | 12 (+1) | 13 (+1) | 15 (+2) | 14 (+2) | 8 (-1) |
-
-**Spells:** Fire Bolt, Mage Hand, Detect Magic, Feather Fall, Thunderwave, Charm Person, Magic Missile, Grease, Mage Armor, Unseen Servant, Find Familiar
-
-**Inventory:** Quarterstaff

@@ -48,4 +48,17 @@
 **Skilled:** Origin Feat You gain proficiency in any combination of three skills or tools of your choice. Repeatable. You can take this feat more than once.
 **Dark Bargain:** At your GM's discretion, you can take a Dark Bargain.
 
+## Spells
+
+**Cantrips:** Eldritch Blast, Fire Bolt, Frostbite, Thaumaturgy
+**1st Level:** Hex, Tasha's Hideous Laughter
+
+## Languages
+
+Common, Elvish, Goblin, Draconic, Orc
+
+## Equipment
+
+Leather, Dagger x2, Greatclub, Sickle, Chest, Clothes, Common, Backpack, Book x2, Orb, Crowbar, Hammer, Holy Water (flask), Manacles, Mirror, Steel, Oil (flask), Tinderbox x2, Torch x3, Stake (Wooden) x9, Holy Symbol, Oil x10, Parchment x10, Lamp, Ink Pen, Ink
+
 *Last updated: 2026-04-28*

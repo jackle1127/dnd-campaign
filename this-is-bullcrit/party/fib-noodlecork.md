@@ -58,11 +58,11 @@
 
 ## Languages
 
-Common, Elvish, Gnomish
+Common, Gnomish, Elvish
 
 ## Equipment
 
-Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Calligrapher's Supplies, Traveler's Clothes, 35 GP
+Leather, Dagger x4, Backpack, Pouch x2, Lute, Thieves' Tools, Crowbar, Traveler's Clothes, Oil x8, Rations x9, Bedroll, Bell, Tinderbox, Waterskin, Mirror, Bullseye Lantern, Costume x3
 
 ## Backstory
 
@@ -79,15 +79,3 @@ At the Waypost Inn in Tripoint, he overheard two well-dressed strangers arguing 
 Since crossing into the Heartlands, he's had the feeling he's being followed. A man in a gray cloak. Never close enough to approach, never far enough to ignore.
 
 *Last updated: 2026-04-28*
-
----
-
-## D&D Beyond Stats *(as of 2026-04-28)*
-
-**Class:** Bard 2
-
-| STR | DEX | CON | INT | WIS | CHA |
-|-----|-----|-----|-----|-----|-----|
-| 8 (-1) | 14 (+2) | 13 (+1) | 10 (+0) | 12 (+1) | 15 (+2) |
-
-**Inventory:** Leather, Dagger, Dagger, Dagger, Dagger, Backpack, Pouch, Pouch, Lute, Thieves' Tools, Crowbar, Traveler's Clothes, Oil, Rations, Bedroll

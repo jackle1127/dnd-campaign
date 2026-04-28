@@ -24,6 +24,29 @@ SKIP_TRAITS = {
     'Age',
 }
 
+LANG_DISPLAY = {
+    'common': 'Common',
+    'common-sign-language': 'Common Sign Language',
+    'thieves-cant': "Thieves' Cant",
+    'druidic': 'Druidic',
+    'elvish': 'Elvish',
+    'dwarvish': 'Dwarvish',
+    'gnomish': 'Gnomish',
+    'draconic': 'Draconic',
+    'goblin': 'Goblin',
+    'orc': 'Orc',
+    'halfling': 'Halfling',
+    'giant': 'Giant',
+    'gnoll': 'Gnoll',
+    'sylvan': 'Sylvan',
+    'undercommon': 'Undercommon',
+    'abyssal': 'Abyssal',
+    'celestial': 'Celestial',
+    'infernal': 'Infernal',
+    'primordial': 'Primordial',
+    'deep-speech': 'Deep Speech',
+}
+
 def mod(val):
     m = (val - 10) // 2
     return f'+{m}' if m >= 0 else str(m)
@@ -106,6 +129,64 @@ def get_inventory(char):
 
 def get_feats(char):
     return [f['definition']['name'] for f in char.get('feats', []) if f.get('definition')]
+
+def build_spells_section(char):
+    """Build ## Spells section content. Returns None if no spells found."""
+    by_level = {}
+    # Class spells
+    for cs in char.get('classSpells', []):
+        for s in cs.get('spells', []):
+            d = s['definition']
+            by_level.setdefault(d.get('level', 0), []).append(d['name'])
+    # Race/feat/background spells
+    sp_dict = char.get('spells') or {}
+    for cat in ['race', 'feat', 'background']:
+        for s in (sp_dict.get(cat) or []):
+            d = s.get('definition', {})
+            by_level.setdefault(d.get('level', 0), []).append(d['name'])
+    if not by_level:
+        return None
+    lines = []
+    level_names = {0: 'Cantrips', 1: '1st Level', 2: '2nd Level', 3: '3rd Level',
+                   4: '4th Level', 5: '5th Level', 6: '6th Level', 7: '7th Level',
+                   8: '8th Level', 9: '9th Level'}
+    for lvl in sorted(by_level):
+        label = level_names.get(lvl, f'Level {lvl}')
+        names = ', '.join(sorted(set(by_level[lvl])))
+        lines.append(f'**{label}:** {names}')
+    return '\n'.join(lines)
+
+def build_languages_section(char):
+    """Build ## Languages section content."""
+    seen = set()
+    langs = []
+    for cat, mods in (char.get('modifiers') or {}).items():
+        for m in mods:
+            if m.get('type') == 'language':
+                sub = m.get('subType', '')
+                if sub and sub not in seen:
+                    seen.add(sub)
+                    langs.append(LANG_DISPLAY.get(sub, sub.replace('-', ' ').title()))
+    if not langs:
+        return None
+    return ', '.join(langs)
+
+def build_equipment_section(char):
+    """Build ## Equipment section content."""
+    counts = {}
+    for item in char.get('inventory', []):
+        d = item.get('definition', {})
+        if not d:
+            continue
+        name = d.get('name', '')
+        qty = item.get('quantity', 1)
+        counts[name] = counts.get(name, 0) + qty
+    if not counts:
+        return None
+    parts = []
+    for name, qty in counts.items():
+        parts.append(f'{name} x{qty}' if qty > 1 else name)
+    return ', '.join(parts)
 
 def compute_saves(s, profs, prof_bonus):
     save_map = [
@@ -246,6 +327,41 @@ def update_features_section(text, features_content):
     new_text = text[:start_idx] + features_content + '\n' + text[end_idx:]
     return new_text, True
 
+def strip_dndbeyond_stats(text):
+    """Remove the old ## D&D Beyond Stats appendix section."""
+    marker = '## D&D Beyond Stats'
+    if marker not in text:
+        return text
+    # Find the --- separator that precedes it
+    idx = text.index(marker)
+    # Walk back past whitespace/newlines to find the preceding ---
+    pre = text[:idx].rstrip()
+    if pre.endswith('---'):
+        pre = pre[:-3].rstrip()
+    return pre + '\n'
+
+def update_or_insert_section(text, section_name, content):
+    """Update existing ## Section if present; otherwise insert before *Last updated*."""
+    header = f'## {section_name}'
+    if header in text:
+        # Update in place - replace content between header and next ## or *Last updated or ---
+        start_idx = text.index(header) + len(header)
+        while start_idx < len(text) and text[start_idx] == '\n':
+            start_idx += 1
+        end_idx = len(text)
+        for marker in ['\n## ', '\n*Last updated', '\n---']:
+            pos = text.find(marker, start_idx)
+            if pos != -1 and pos < end_idx:
+                end_idx = pos
+        return text[:start_idx] + content + '\n' + text[end_idx:]
+    else:
+        # Insert before *Last updated* or before --- or at end
+        for marker in ['\n*Last updated', '\n---']:
+            pos = text.find(marker)
+            if pos != -1:
+                return text[:pos] + f'\n\n{header}\n\n{content}\n' + text[pos:]
+        return text.rstrip() + f'\n\n{header}\n\n{content}\n'
+
 def update_list_section(text, section_name, items):
     if not items:
         return text, False
@@ -308,6 +424,7 @@ for char_id_int, resp in all_chars.items():
     inventory = get_inventory(char)
     feats = get_feats(char)
 
+    text = strip_dndbeyond_stats(text)
     text, _ = update_inline_field(text, 'Class', class_str)
     text, _ = update_inline_field(text, 'Level', total_level)
     text, _ = update_inline_field(text, 'HP', hp)
@@ -317,12 +434,22 @@ for char_id_int, resp in all_chars.items():
     text, _ = update_saving_throws(text, saves_line)
     text, _ = update_passive_perception(text, passive_perc)
     text, _ = update_features_section(text, features_content)
-    if spells:
-        text, _ = update_list_section(text, 'Spells Known', spells)
-    if feats:
-        text, _ = update_list_section(text, 'Feats', feats)
-    if inventory:
-        text, _ = update_list_section(text, 'Inventory', inventory)
+    # Only update Spells if D&D Beyond has actual class spells; otherwise preserve manual content
+    has_class_spells = any(
+        len(cs.get('spells', [])) > 0 for cs in char.get('classSpells', [])
+    )
+    spells_content = build_spells_section(char)
+    if spells_content and has_class_spells:
+        text = update_or_insert_section(text, 'Spells', spells_content)
+    elif spells_content and '## Spells' not in text:
+        # No class spells but has race/feat spells - insert fresh section only
+        text = update_or_insert_section(text, 'Spells', spells_content)
+    langs_content = build_languages_section(char)
+    if langs_content:
+        text = update_or_insert_section(text, 'Languages', langs_content)
+    equip_content = build_equipment_section(char)
+    if equip_content:
+        text = update_or_insert_section(text, 'Equipment', equip_content)
     text = update_last_updated(text, today)
 
     md_path.write_text(text, encoding='utf-8')
