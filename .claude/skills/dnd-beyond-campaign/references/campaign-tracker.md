@@ -9,12 +9,15 @@
 
 | ID | Name | Player | Status |
 |----|------|--------|--------|
-| 152117866 | Alarak Vaelor Veltharion | Aricin | Active |
+| 152117866 | Alarak Vaelor Veltharion | Aricin | Active (NO-FETCH) |
 | 153282190 | Kaelen "Slick" Thornecrest | jackle1127 | DECEASED (3/28/2026) |
 | 153546441 | Rayne Willowshade | AngelFoxette | Active |
 | 153077893 | Szeth Stormblessed | TomThunder116 | Active |
 | 152806918 | Vacir | Phxent23 | Active |
 | 164100589 | Darian Thornecrest | jackle1127 | Active |
+| 164913938 | Fib Noodlecork | jackle1127 | Active |
+
+**NO-FETCH** = character sheet is in a different D&D Beyond campaign (not Podcast). The Bearer token from the Podcast campaign cannot fetch it. Skip these characters during scrapes — never delete or overwrite their party markdown files. Keep them in the party folder as-is.
 
 ## Step 1 - Get Bearer Token
 
