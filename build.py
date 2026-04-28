@@ -21,7 +21,8 @@ SECTIONS = [
 ]
 
 def slugify(path):
-    return str(path).replace("\\", "/").replace("/", "-").replace(" ", "-").replace(".md", "")
+    rel = Path(path).relative_to(BASE)
+    return str(rel).replace("\\", "/").replace("/", "-").replace(" ", "-").replace(".md", "")
 
 def render_nav(sections):
     html = "<ul>"
