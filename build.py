@@ -166,11 +166,25 @@ body::before {
 
 /* ── Nav ──────────────────────────────────────────────────────────────── */
 
+.nav-wrapper {
+  position: relative;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 268px;
+  overflow: hidden;
+  transition: width 0.28s ease;
+}
+
+.nav-wrapper.nav-collapsed {
+  width: 0;
+}
+
 nav {
   position: relative;
   z-index: 10;
   width: 268px;
   min-width: 268px;
+  height: 100%;
   background: linear-gradient(175deg, rgba(10, 7, 3, 0.98) 0%, rgba(15, 10, 4, 0.96) 100%);
   overflow-y: auto;
   overflow-x: hidden;
@@ -179,20 +193,6 @@ nav {
   scrollbar-width: thin;
   scrollbar-color: rgba(180, 130, 40, 0.22) transparent;
   animation: flicker 14s ease-in-out infinite;
-  transition: width 0.28s ease, min-width 0.28s ease, border-color 0.28s ease;
-}
-
-nav.nav-collapsed {
-  width: 0;
-  min-width: 0;
-  border-right-color: transparent;
-  overflow: hidden;
-}
-
-.nav-wrapper {
-  position: relative;
-  flex-shrink: 0;
-  align-self: stretch;
 }
 
 .sidebar-toggle {
@@ -625,10 +625,9 @@ function restoreSections() {{
 restoreSections();
 
 function toggleSidebar() {{
-  var nav = document.querySelector('nav');
+  var wrapper = document.querySelector('.nav-wrapper');
   var btn = document.getElementById('sidebar-toggle');
-  var collapsed = nav.classList.toggle('nav-collapsed');
-  btn.classList.toggle('nav-collapsed', collapsed);
+  var collapsed = wrapper.classList.toggle('nav-collapsed');
   btn.innerHTML = collapsed ? '&#8250;' : '&#8249;';
   try {{ localStorage.setItem('sidebarCollapsed', collapsed ? '1' : '0'); }} catch(e) {{}}
 }}
@@ -636,12 +635,10 @@ function toggleSidebar() {{
 (function() {{
   try {{
     if (localStorage.getItem('sidebarCollapsed') === '1') {{
-      var nav = document.querySelector('nav');
+      var wrapper = document.querySelector('.nav-wrapper');
       var btn = document.getElementById('sidebar-toggle');
-      nav.classList.add('nav-collapsed');
-      btn.classList.add('nav-collapsed');
+      wrapper.classList.add('nav-collapsed');
       btn.innerHTML = '&#8250;';
-      btn.style.left = '0';
     }}
   }} catch(e) {{}}
 }})();
