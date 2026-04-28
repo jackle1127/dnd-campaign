@@ -60,4 +60,4 @@ Common, Elvish, Gnomish
 
 Leather Armor, 2 Daggers, Lute, Entertainer's Pack, Thieves' Tools, Crowbar, Traveler's Clothes, 35 GP
 
-*Last updated: 2026-04-28*
+*Last updated: 2026-04-27*
