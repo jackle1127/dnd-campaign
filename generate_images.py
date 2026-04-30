@@ -11,47 +11,50 @@ CAMPAIGN = os.path.join(os.path.dirname(__file__), "this-is-bullcrit")
 SERVER = "http://192.168.1.202:8000"
 USE_OPENAI = "--openai" in sys.argv
 
+# Applied to every prompt to enforce a consistent art style
+STYLE = "Watercolor fantasy illustration style, soft washes of color, painterly and expressive, detailed fantasy background, bust portrait shot, consistent fantasy RPG aesthetic. No text, no letters, no words, no labels, no watermarks, no writing of any kind anywhere in the image."
+
 ENTRIES = [
     {
         "md": f"{CAMPAIGN}/party/alarak-vaelor-veltharion.md",
         "img": f"{CAMPAIGN}/party/alarak-vaelor-veltharion.png",
-        "prompt": "a dhampir paladin warrior, pale undead complexion, subtle fangs, striking charismatic face, half plate armor, greatsword, dark and brooding but magnetic, vampire-touched holy warrior, dramatic candlelit lighting, painterly dark fantasy portrait",
-        "width": 512, "height": 768, "size": "1024x1792",
+        "prompt": "A dhampir paladin warrior. Pale undead complexion, subtle fangs, striking charismatic face. Half plate armor, greatsword over his shoulder. Dark and brooding but magnetic, a vampire-touched holy warrior.",
+        "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/npcs/grimshaw.md",
         "img": f"{CAMPAIGN}/npcs/grimshaw.png",
-        "prompt": "an elderly half-elf man with slightly pointed ears, kind tired eyes, weathered face, tattered prison rags, gentle expression, the kind of man who gives away his food, dark dungeon stone background, painterly fantasy portrait",
-        "width": 512, "height": 768, "size": "1024x1792",
+        "prompt": "An elderly half-elf man in his 70s. Slightly pointed ears, kind tired eyes, deeply weathered face, tattered ragged clothing. Gentle and generous expression, the kind of man who gives away his last meal.",
+        "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/npcs/bristle.md",
         "img": f"{CAMPAIGN}/npcs/bristle.png",
-        "prompt": "a small sassy flying squirrel with expressive mischievous eyes, fluffy with gliding membranes spread, perched confidently, fantasy animal companion with attitude, whimsical painterly illustration",
+        "prompt": "A small sassy flying squirrel with expressive mischievous eyes, fluffy fur, gliding membranes spread wide. Perched confidently on a branch. A beloved fantasy animal companion full of attitude.",
         "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/party/fib-noodlecork.md",
         "img": f"{CAMPAIGN}/party/fib-noodlecork.png",
-        "prompt": "an elderly forest gnome bard, small stature, warm expressive face, twinkling mischievous eyes full of old secrets, traveler's clothes layered for cold weather, borrowed lute on his back, decades of tavern life written on his face, painterly fantasy portrait, warm candlelit lighting",
-        "width": 512, "height": 768, "size": "1024x1792",
+        "prompt": "An elderly forest gnome bard. Small stature, warm expressive face, twinkling mischievous eyes full of old secrets. Layered traveler clothes for cold weather, a borrowed lute on his back. Decades of tavern life written on his face.",
+        "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/npcs/inkus.md",
         "img": f"{CAMPAIGN}/npcs/inkus.png",
-        "prompt": "a mysterious ethereal deity manifesting in a dream, warlock patron, half-formed in swirling dark cosmic void, glowing eldritch eyes, neither fully human nor fully alien, dreamlike and disturbing, painterly dark fantasy portrait",
-        "width": 512, "height": 768, "size": "1024x1792",
+        "prompt": "A mysterious lower-tier deity and warlock patron manifesting in a dream. An unsettling half-formed figure wreathed in dark cosmic energy, glowing eldritch eyes. Neither fully human nor alien, dreamlike and disturbing.",
+        "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/npcs/lord-halvar-dendros.md",
         "img": f"{CAMPAIGN}/npcs/lord-halvar-dendros.png",
-        "prompt": "a short stout human nobleman wearing polished shiny plate armor with noble insignia, distinguished bearing, authoritative and calculating expression, the face of a man accustomed to getting what he wants, painterly fantasy portrait, dramatic lighting",
-        "width": 512, "height": 768, "size": "1024x1792",
+        "prompt": "A short stout human nobleman in his 50s. Silver-streaked hair, lined commanding face, gravitas of a man who has wielded power for decades. Polished plate armor with noble insignia. Calculating and authoritative expression.",
+        "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/locations/silver-oak.md",
         "img": f"{CAMPAIGN}/locations/silver-oak.png",
-        "prompt": "a grand medieval feast hall interior inside a fortress, long banquet tables set for a feast, ornate dark wood beams, warm torchlight from iron chandeliers, silver oak tree motifs carved into pillars, atmospheric and opulent, painterly fantasy illustration",
+        "prompt": "Interior of a grand medieval feast hall inside a stone fortress. Long banquet tables set for a lavish feast, ornate dark wood beams overhead, warm torchlight from iron chandeliers, silver oak tree motifs carved into the pillars.",
         "width": 896, "height": 512, "size": "1792x1024",
     },
 ]
@@ -67,7 +70,7 @@ def prepend_image_ref(md_path, img_filename):
 
 def generate_local(entry):
     resp = requests.post(f"{SERVER}/image/generate", json={
-        "prompt": entry["prompt"],
+        "prompt": entry["prompt"] + " " + STYLE,
         "lora": "fantasy",
         "width": entry["width"],
         "height": entry["height"],
@@ -81,10 +84,9 @@ def generate_openai(entry):
     import keyring
     from openai import OpenAI
     client = OpenAI(api_key=keyring.get_password("openai", "api-key"))
-    prompt = entry["prompt"] + " No text, no words, no labels, no watermarks."
     response = client.images.generate(
         model="dall-e-3",
-        prompt=prompt,
+        prompt=entry["prompt"] + " " + STYLE,
         size=entry["size"],
         quality="standard",
         n=1,
