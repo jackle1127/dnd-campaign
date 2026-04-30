@@ -90,6 +90,18 @@ first_slug = next(iter(pages))
 CSS = """
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+:root {
+  /* Desktop nav: change these two to resize the sidebar */
+  --nav-w: 252px;
+  --toggle-w: 16px;
+  --wrapper-w: calc(var(--nav-w) + var(--toggle-w));
+
+  /* Mobile nav: change these two to resize the mobile sidebar */
+  --nav-w-mobile: 240px;
+  --toggle-w-mobile: 26px;
+  --wrapper-w-mobile: calc(var(--nav-w-mobile) + var(--toggle-w-mobile));
+}
+
 @keyframes flicker {
   0%, 89%, 94%, 100% { opacity: 1; }
   90%  { opacity: 0.80; }
@@ -167,26 +179,27 @@ body::before {
 }
 
 /* ── Nav ──────────────────────────────────────────────────────────────── */
+/* Sizing controlled by CSS variables in :root — change --nav-w/--toggle-w there, not here. */
 
 .nav-wrapper {
   position: relative;
   flex-shrink: 0;
   align-self: stretch;
-  width: 268px;
+  width: var(--wrapper-w);
   overflow: hidden;
   z-index: 10;
   transition: width 0.28s ease;
 }
 
 .nav-wrapper.nav-collapsed {
-  width: 16px;
+  width: var(--toggle-w);
 }
 
 nav {
   position: relative;
   z-index: 10;
-  width: 252px;
-  min-width: 252px;
+  width: var(--nav-w);
+  min-width: var(--nav-w);
   height: 100%;
   background: linear-gradient(175deg, rgba(10, 7, 3, 0.98) 0%, rgba(15, 10, 4, 0.96) 100%);
   overflow-y: auto;
@@ -204,7 +217,7 @@ nav {
   top: 0;
   bottom: 0;
   z-index: 11;
-  width: 16px;
+  width: var(--toggle-w);
   height: auto;
   background: rgba(12, 8, 3, 0.97);
   border: 1px solid rgba(180, 130, 40, 0.28);
@@ -220,6 +233,9 @@ nav {
   padding: 0;
   line-height: 1;
   user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .sidebar-toggle:hover { color: #f0d080; }
@@ -572,7 +588,7 @@ main blockquote {
     left: 0;
     top: 0;
     height: 100dvh;
-    width: 284px;
+    width: var(--wrapper-w-mobile);
     overflow: hidden;
     transform: translateX(0);
     transition: transform 0.28s ease;
@@ -580,18 +596,18 @@ main blockquote {
   }
 
   .nav-wrapper.nav-collapsed {
-    width: 284px;
-    transform: translateX(calc(-284px + 44px));
+    width: var(--wrapper-w-mobile);
+    transform: translateX(calc(-1 * var(--wrapper-w-mobile) + var(--toggle-w-mobile)));
   }
 
   nav {
-    width: 240px;
-    min-width: 240px;
+    width: var(--nav-w-mobile);
+    min-width: var(--nav-w-mobile);
     height: 100%;
   }
 
   .sidebar-toggle {
-    width: 44px;
+    width: var(--toggle-w-mobile);
     font-size: 1.2em;
   }
 
