@@ -1,3 +1,22 @@
+# Formatting Guide
+
+Conventions for markdown files and backstory/campaign docs in this project.
+
+## Markdown Line Breaks
+
+In Markdown, consecutive lines without a blank line between them render as a single paragraph — the line break is lost.
+
+**Fix:** End the line with two trailing spaces (`  `) to force a `<br>`.
+
+```markdown
+**Location:** Ironwood Fortress  
+**Type:** Venue (feast/event hall)
+```
+
+This applies anywhere two `**Key:** Value` fields appear back-to-back in a character or location file. Always add two trailing spaces to all but the last field in the group.
+
+---
+
 # Google Docs Formatting Guide
 
 Conventions for backstory and campaign docs in this project.
