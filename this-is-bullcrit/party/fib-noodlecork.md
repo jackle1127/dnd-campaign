@@ -3,10 +3,10 @@
 # Fib Noodlecork
 
 **Player:** jackle1127  
-**Class:** Bard 2
+**Class:** Bard 2  
 **Race:** Forest Gnome  
-**Level:** 2
-**HP:** 13
+**Level:** 2  
+**HP:** 13  
 **Status:** Active
 
 ## Ability Scores

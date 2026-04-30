@@ -3,10 +3,10 @@
 # Szeth Stormblessed
 
 **Player:** TomThunder116  
-**Class:** Warlock 2
+**Class:** Warlock 2  
 **Race:** Tiefling  
-**Level:** 2
-**HP:** 13
+**Level:** 2  
+**HP:** 13  
 **Status:** Active
 
 ## Ability Scores

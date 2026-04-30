@@ -3,10 +3,10 @@
 # Vacir
 
 **Player:** Phxent23  
-**Class:** Rogue 2
+**Class:** Rogue 2  
 **Race:** Variant Human  
-**Level:** 2
-**HP:** 13
+**Level:** 2  
+**HP:** 13  
 **Status:** Active
 
 ## Ability Scores

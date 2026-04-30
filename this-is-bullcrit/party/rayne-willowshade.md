@@ -3,10 +3,10 @@
 # Rayne Willowshade
 
 **Player:** AngelFoxette  
-**Class:** Druid 2
+**Class:** Druid 2  
 **Race:** Eladrin (Variant)  
-**Level:** 2
-**HP:** 13
+**Level:** 2  
+**HP:** 13  
 **Status:** Active
 
 ## Ability Scores

@@ -3,10 +3,10 @@
 # Kaelen "Slick" Thornecrest
 
 **Player:** jackle1127  
-**Class:** Wizard 2
+**Class:** Wizard 2  
 **Race:** Human  
-**Level:** 2
-**HP:** 10
+**Level:** 2  
+**HP:** 10  
 **Status:** DECEASED
 
 ## Ability Scores
