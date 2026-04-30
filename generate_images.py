@@ -1,56 +1,58 @@
 #!/usr/bin/env python3
-"""Generate missing character/location images using OpenAI DALL-E 3."""
+"""Generate character/location images. Defaults to local AI server (fantasy LoRA).
+Pass --openai to use DALL-E 3 instead."""
 
-import keyring
 import os
+import sys
 import urllib.request
-from openai import OpenAI
+import requests
 
-client = OpenAI(api_key=keyring.get_password("openai", "api-key"))
 CAMPAIGN = os.path.join(os.path.dirname(__file__), "this-is-bullcrit")
+SERVER = "http://192.168.1.202:8000"
+USE_OPENAI = "--openai" in sys.argv
 
 ENTRIES = [
     {
         "md": f"{CAMPAIGN}/party/alarak-vaelor-veltharion.md",
         "img": f"{CAMPAIGN}/party/alarak-vaelor-veltharion.png",
-        "prompt": "Digital fantasy portrait of Alarak Vaelor Veltharion, a dhampir paladin. Pale undead complexion, subtle fangs, striking and charismatic face. Wearing half plate armor, a greatsword at his back. Dark and brooding but magnetic — a vampire-touched holy warrior. Dramatic candlelit lighting, painterly dark fantasy art style, detailed.",
-        "size": "1024x1792",
+        "prompt": "a dhampir paladin warrior, pale undead complexion, subtle fangs, striking charismatic face, half plate armor, greatsword, dark and brooding but magnetic, vampire-touched holy warrior, dramatic candlelit lighting, painterly dark fantasy portrait",
+        "width": 512, "height": 768, "size": "1024x1792",
     },
     {
         "md": f"{CAMPAIGN}/npcs/grimshaw.md",
         "img": f"{CAMPAIGN}/npcs/grimshaw.png",
-        "prompt": "Digital fantasy portrait of Grimshaw, an elderly half-elf prisoner. Slightly pointed ears, weathered and kind face, tired but warm eyes. Wearing tattered prison rags. The kind of man who gives away his food to someone who needs it more. Dark dungeon stone background, painterly fantasy art style, soft lighting.",
-        "size": "1024x1792",
+        "prompt": "an elderly half-elf man with slightly pointed ears, kind tired eyes, weathered face, tattered prison rags, gentle expression, the kind of man who gives away his food, dark dungeon stone background, painterly fantasy portrait",
+        "width": 512, "height": 768, "size": "1024x1792",
     },
     {
         "md": f"{CAMPAIGN}/npcs/bristle.md",
         "img": f"{CAMPAIGN}/npcs/bristle.png",
-        "prompt": "Digital fantasy illustration of Bristle, a small sassy flying squirrel. Expressive mischievous eyes, fluffy with gliding membranes spread, perched confidently like he owns the place. Fantasy animal companion with attitude. Whimsical painterly art style, detailed fur texture, warm natural lighting.",
-        "size": "1024x1024",
+        "prompt": "a small sassy flying squirrel with expressive mischievous eyes, fluffy with gliding membranes spread, perched confidently, fantasy animal companion with attitude, whimsical painterly illustration",
+        "width": 512, "height": 512, "size": "1024x1024",
     },
     {
         "md": f"{CAMPAIGN}/party/fib-noodlecork.md",
         "img": f"{CAMPAIGN}/party/fib-noodlecork.png",
-        "prompt": "Digital fantasy portrait of Fib Noodlecork, an elderly forest gnome bard. Small stature, warm expressive face, twinkling eyes full of mischief and old secrets. Wearing traveler's clothes layered for cold weather, a borrowed lute slung on his back. The kind of gnome who has spent decades listening in warm taverns. Rich painterly fantasy art style, detailed, warm candlelit lighting.",
-        "size": "1024x1792",
+        "prompt": "an elderly forest gnome bard, small stature, warm expressive face, twinkling mischievous eyes full of old secrets, traveler's clothes layered for cold weather, borrowed lute on his back, decades of tavern life written on his face, painterly fantasy portrait, warm candlelit lighting",
+        "width": 512, "height": 768, "size": "1024x1792",
     },
     {
         "md": f"{CAMPAIGN}/npcs/inkus.md",
         "img": f"{CAMPAIGN}/npcs/inkus.png",
-        "prompt": "Digital fantasy portrait of Inkus, a mysterious lower-tier deity and warlock patron who visits his charge in dreams. An ethereal and unsettling presence, half-formed in swirling dark cosmic void, eyes that glow with eldritch light. Neither fully human nor fully alien. Dreamlike and disturbing, painterly dark fantasy art.",
-        "size": "1024x1792",
+        "prompt": "a mysterious ethereal deity manifesting in a dream, warlock patron, half-formed in swirling dark cosmic void, glowing eldritch eyes, neither fully human nor fully alien, dreamlike and disturbing, painterly dark fantasy portrait",
+        "width": 512, "height": 768, "size": "1024x1792",
     },
     {
         "md": f"{CAMPAIGN}/npcs/lord-halvar-dendros.md",
         "img": f"{CAMPAIGN}/npcs/lord-halvar-dendros.png",
-        "prompt": "Digital fantasy portrait of Lord Halvar Dendros, a short stout human nobleman. Wearing polished shiny plate armor with noble insignia. Distinguished bearing, authoritative and calculating expression, the face of a man accustomed to getting what he wants. Painterly fantasy art style, dramatic lighting.",
-        "size": "1024x1792",
+        "prompt": "a short stout human nobleman wearing polished shiny plate armor with noble insignia, distinguished bearing, authoritative and calculating expression, the face of a man accustomed to getting what he wants, painterly fantasy portrait, dramatic lighting",
+        "width": 512, "height": 768, "size": "1024x1792",
     },
     {
         "md": f"{CAMPAIGN}/locations/silver-oak.md",
         "img": f"{CAMPAIGN}/locations/silver-oak.png",
-        "prompt": "Digital fantasy illustration of the Silver Oak feast hall interior, a grand medieval banquet venue inside Ironwood Fortress. Long tables set for a feast, ornate dark wood beams overhead, warm torchlight from iron chandeliers, silver oak tree motifs carved into pillars. Atmospheric and opulent, painterly fantasy art style.",
-        "size": "1792x1024",
+        "prompt": "a grand medieval feast hall interior inside a fortress, long banquet tables set for a feast, ornate dark wood beams, warm torchlight from iron chandeliers, silver oak tree motifs carved into pillars, atmospheric and opulent, painterly fantasy illustration",
+        "width": 896, "height": 512, "size": "1792x1024",
     },
 ]
 
@@ -63,23 +65,52 @@ def prepend_image_ref(md_path, img_filename):
         f.write(f"![]({img_filename})\n\n{content}")
     print(f"  Updated {md_path}")
 
+def generate_local(entry):
+    resp = requests.post(f"{SERVER}/image/generate", json={
+        "prompt": entry["prompt"],
+        "lora": "fantasy",
+        "width": entry["width"],
+        "height": entry["height"],
+        "steps": 30,
+    }, timeout=300)
+    if resp.status_code != 200:
+        raise RuntimeError(f"Server error {resp.status_code}: {resp.text}")
+    return resp.content
+
+def generate_openai(entry):
+    import keyring
+    from openai import OpenAI
+    client = OpenAI(api_key=keyring.get_password("openai", "api-key"))
+    prompt = entry["prompt"] + " No text, no words, no labels, no watermarks."
+    response = client.images.generate(
+        model="dall-e-3",
+        prompt=prompt,
+        size=entry["size"],
+        quality="standard",
+        n=1,
+    )
+    url = response.data[0].url
+    with urllib.request.urlopen(url) as r:
+        return r.read()
+
+backend = "OpenAI DALL-E 3" if USE_OPENAI else "local AI server (fantasy LoRA)"
+print(f"Using: {backend}\n")
+
 for entry in ENTRIES:
     img_path = entry["img"]
     img_filename = os.path.basename(img_path)
     md_path = entry["md"]
     name = os.path.basename(md_path).replace(".md", "")
 
-    print(f"\n[{name}] Generating...")
-    response = client.images.generate(
-        model="dall-e-3",
-        prompt=entry["prompt"],
-        size=entry["size"],
-        quality="standard",
-        n=1,
-    )
+    print(f"[{name}] Generating...")
+    try:
+        img_bytes = generate_openai(entry) if USE_OPENAI else generate_local(entry)
+    except Exception as e:
+        print(f"  ERROR: {e}")
+        continue
 
-    url = response.data[0].url
-    urllib.request.urlretrieve(url, img_path)
+    with open(img_path, "wb") as f:
+        f.write(img_bytes)
     print(f"  Saved {img_path}")
     prepend_image_ref(md_path, img_filename)
 
