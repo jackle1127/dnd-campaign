@@ -282,7 +282,15 @@ nav li.section ul li a::before {
   transition: color 0.18s ease, left 0.14s ease;
 }
 
-nav li.section ul li a:hover,
+nav li.section ul li a:hover {
+  color: #f0d880;
+  text-shadow: 0 0 16px rgba(240, 200, 80, 0.32);
+}
+
+nav li.section ul li a:hover::before {
+  color: #c9a040;
+}
+
 nav li.section ul li a.active {
   color: #f0d880;
   border-left-color: #c9a040;
@@ -291,7 +299,6 @@ nav li.section ul li a.active {
   padding-left: 32px;
 }
 
-nav li.section ul li a:hover::before,
 nav li.section ul li a.active::before {
   color: #c9a040;
   left: 17px;
