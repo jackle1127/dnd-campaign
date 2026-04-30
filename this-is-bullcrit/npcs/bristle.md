@@ -1,3 +1,5 @@
+![](bristle.png)
+
 # Bristle
 
 **Type:** Flying squirrel  

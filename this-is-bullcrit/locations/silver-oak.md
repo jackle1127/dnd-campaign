@@ -1,3 +1,5 @@
+![](silver-oak.png)
+
 # The Silver Oak
 
 **Location:** Ironwood Fortress

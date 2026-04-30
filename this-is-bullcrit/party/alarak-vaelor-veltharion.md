@@ -1,3 +1,5 @@
+![](alarak-vaelor-veltharion.png)
+
 # Alarak Vaelor Veltharion
 
 **Player:** Aricin  

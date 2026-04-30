@@ -1,3 +1,5 @@
+![](lord-halvar-dendros.png)
+
 # Lord Halvar Dendros
 
 **Type:** Human noble (or look-alike?)  

@@ -1,3 +1,5 @@
+![](grimshaw.png)
+
 # Grimshaw
 
 **Type:** Half-elf  

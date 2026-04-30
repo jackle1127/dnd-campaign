@@ -1,3 +1,5 @@
+![](helga.png)
+
 # Helga
 
 **Type:** Human  

@@ -1,3 +1,5 @@
+![](inkus.png)
+
 # Inkus
 
 **Type:** Lower-tier deity / Warlock Patron  
