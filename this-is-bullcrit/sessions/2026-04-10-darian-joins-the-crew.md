@@ -1,5 +1,8 @@
 # 2026-04-10
 
+![](2026-04-10-darian-joins-the-crew-highlight.png)
+
+
 - Alarak got out of the building first
 - Rest of party is outside the building; Helga is still inside
 - Rayne spat Slick out after he went limp

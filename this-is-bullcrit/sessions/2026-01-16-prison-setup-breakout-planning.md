@@ -1,5 +1,8 @@
 # 2026-01-16 - Prison Setup and Breakout Planning
 
+![](2026-01-16-prison-setup-breakout-planning-highlight.png)
+
+
 - Party split across floors: Szeth and Alarak on floor 50 (convicted mass murderers); Rayne, Vacir, and Kaelen on floor 13 (simpler crimes)
 - Prisoners worked in the Black Pits mines and blacksmithed at the forge and anvils to meet a daily quota
 - Vacir learned what happens when you don't meet quota: more cell time, no cafeteria access, no dinner

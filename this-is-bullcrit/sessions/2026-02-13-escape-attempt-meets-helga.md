@@ -1,5 +1,8 @@
 # 2026-02-13 - Escape Attempt, Meets Helga
 
+![](2026-02-13-escape-attempt-meets-helga-highlight.png)
+
+
 - Rayne joined the team
 - Everyone met their quota and crafted 3 more prongs, bringing the total to 5
 - Team devised a plan: escape cells during the night and hide in the weekly supply crates delivered to the mess hall

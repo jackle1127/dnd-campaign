@@ -1,5 +1,8 @@
 # 2026-03-13 - Ironwood Fortress Soup Kitchen
 
+![](2026-03-13-ironwood-fortress-soup-kitchen-highlight.png)
+
+
 - Party stayed hidden in their crates until reaching the city gates of Ironwood Fortress
 - Beef the hawk hid in Slick's crate; when a guard smashed a crate to check its contents, Beef dug his talons into Slick out of fear
 - Party arrived at their final destination: a soup kitchen's storage room

@@ -1,5 +1,8 @@
 # 2026-02-27 - Escape from Vaultspire
 
+![](2026-02-27-escape-from-vaultspire-highlight.png)
+
+
 - Helga retrieved her savings (for her sick mother) and decided to escape with the group - she was out of PTO
 - Made a deal with Helga: deliver items to her family in exchange for her silence and help
 - Helga unlocked the mess hall doors; guards were inside - Helga opened the door and the party peeked in

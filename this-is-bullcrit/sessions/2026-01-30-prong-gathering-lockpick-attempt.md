@@ -1,5 +1,8 @@
 # 2026-01-30 - Prong Gathering and Lockpick Attempt
 
+![](2026-01-30-prong-gathering-lockpick-attempt-highlight.png)
+
+
 - Vacir obtained the first fork prong
 - Slick crafted a full lockpicking kit that was immediately lost
 - Grimshaw (old half-elf) gave his mining quota to Alarak so that Alarak could eat

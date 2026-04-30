@@ -19,6 +19,7 @@ This applies anywhere two `**Key:** Value` fields appear back-to-back in a chara
 
 - **Characters/NPCs:** Image goes at the very top of the file, before the `#` title.
 - **Locations/Maps:** Image goes below the `#` title so it displays larger and in context.
+- **Sessions:** Highlight image goes below the `#` title (same as locations).
 
 ```markdown
 <!-- Character -->
@@ -26,10 +27,15 @@ This applies anywhere two `**Key:** Value` fields appear back-to-back in a chara
 
 # Alarak Vaelor Veltharion
 
-<!-- Location -->
+<!-- Location or Session -->
 # The Silver Oak
 
 ![](silver-oak.png)
+
+<!-- Session -->
+# 2026-04-24
+
+![](2026-04-24-highlight.png)
 ```
 
 ---

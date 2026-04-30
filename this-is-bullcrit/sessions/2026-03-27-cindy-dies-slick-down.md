@@ -1,5 +1,8 @@
 # 2026-03-27 - Cindy Dies, Slick Goes Down
 
+![](2026-03-27-cindy-dies-slick-down-highlight.png)
+
+
 - Party received equipment and weapons from Bristle; Vacir and Slick did not receive any
 - Rayne shared lore about a special artifact she has a strong connection to
   - Before her arrest at Lord Halvar Dendros's home, she buried it under an Oak tree for safekeeping
