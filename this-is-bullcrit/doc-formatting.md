@@ -15,6 +15,23 @@ In Markdown, consecutive lines without a blank line between them render as a sin
 
 This applies anywhere two `**Key:** Value` fields appear back-to-back in a character or location file. Always add two trailing spaces to all but the last field in the group.
 
+## Image Placement
+
+- **Characters/NPCs:** Image goes at the very top of the file, before the `#` title.
+- **Locations/Maps:** Image goes below the `#` title so it displays larger and in context.
+
+```markdown
+<!-- Character -->
+![](alarak.png)
+
+# Alarak Vaelor Veltharion
+
+<!-- Location -->
+# The Silver Oak
+
+![](silver-oak.png)
+```
+
 ---
 
 # Google Docs Formatting Guide

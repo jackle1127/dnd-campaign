@@ -9,6 +9,10 @@
 **HP:** 13  
 **Status:** Active
 
+## Appearance
+
+A spry elderly forest gnome in his late years but full of life. Kind wrinkles around his eyes, short white beard, bushy eyebrows, large nose, pointed ears, upright posture. Wears a blue robe. Weathered but energetic, wise but mischievous.
+
 ## Ability Scores
 
 | STR | DEX | CON | INT | WIS | CHA |

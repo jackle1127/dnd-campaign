@@ -12,7 +12,7 @@ SERVER = "http://192.168.1.202:8000"
 USE_OPENAI = "--openai" in sys.argv
 
 # Applied to every prompt to enforce a consistent art style
-STYLE = "Watercolor fantasy illustration style, soft washes of color, painterly and expressive, detailed fantasy background, bust portrait shot, consistent fantasy RPG aesthetic. No text, no letters, no words, no labels, no watermarks, no writing of any kind anywhere in the image."
+STYLE = "Fantasy illustration style, painterly and expressive, rich color and detail filling the entire canvas edge to edge with no white or empty areas, consistent fantasy RPG aesthetic. No text, no letters, no words, no labels, no watermarks, no writing of any kind anywhere in the image."
 
 ENTRIES = [
     {

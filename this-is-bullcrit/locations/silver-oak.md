@@ -1,6 +1,6 @@
-![](silver-oak.png)
-
 # The Silver Oak
+
+![](silver-oak.png)
 
 **Location:** Ironwood Fortress  
 **Type:** Venue (feast/event hall)
