@@ -1,4 +1,4 @@
-# 2026-04-10
+# 2026-04-10 - Darian Joins the Crew
 
 ![](2026-04-10-darian-joins-the-crew-highlight.png)
 
