@@ -787,7 +787,7 @@ function show(slug) {{
   content.innerHTML = pages[slug] || '<p style="color:#666;font-style:italic">Not found.</p>';
   document.getElementById('main-scroll').scrollTop = 0;
   document.querySelectorAll('nav a').forEach(function(a) {{ a.classList.remove('active'); }});
-  var link = document.querySelector('nav a[onclick="show(\\'' + slug + '\\')"]');
+  var link = document.querySelector('nav a[href="#' + slug + '"]');
   if (link) link.classList.add('active');
   window.location.hash = slug;
   if (isMobile()) closeSidebar();
