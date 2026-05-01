@@ -33,7 +33,7 @@ SESSIONS_DATA = [
         "prompt": (
             "A grim prison cafeteria with stone walls and iron bars casting long shadows. "
             "Five prisoners — a pale dhampir warrior, a dark-cloaked warlock, and three others "
-            "in drab prison clothes — huddle over bowls of grey slop, whispering urgently "
+            "all wearing orange prison uniforms — huddle over bowls of grey slop, whispering urgently "
             "with a crude map scratched into the table. Guards loom distantly in the background."
         ),
         "refs": [
@@ -47,8 +47,8 @@ SESSIONS_DATA = [
         "prompt": (
             "Inside a dimly lit prison mine shaft, a weathered elderly half-elf man with kind "
             "tired eyes quietly slips his mining quota stones to a pale, brooding dhampir warrior "
-            "beside him. Nearby, a warlock elbow-deep in a prison trash can searches frantically "
-            "for something. The scene is tense but quietly humane."
+            "beside him — both wearing orange prison uniforms. Nearby, a warlock in an orange prison "
+            "uniform is elbow-deep in a prison trash can searching frantically. The scene is tense but quietly humane."
         ),
         "refs": [
             img("npcs/grimshaw.png"),
@@ -59,10 +59,10 @@ SESSIONS_DATA = [
     {
         "file": "2026-02-13-escape-attempt-meets-helga.md",
         "prompt": (
-            "On a dark prison stairwell, a pale dhampir warrior and a tattooed warlock freeze "
-            "mid-step as a stout, no-nonsense dwarven woman in a food service apron appears "
-            "from the shadows above, hands on her hips, blocking their escape route. The only "
-            "light is a guttering torch. The moment hangs on a knife's edge."
+            "On a dark prison stairwell, a pale dhampir warrior and a tattooed warlock — both wearing "
+            "orange prison uniforms — freeze mid-step as a stout no-nonsense dwarven woman in a food "
+            "service apron appears from the shadows above, hands on her hips, blocking their escape. "
+            "The only light is a guttering torch. The moment hangs on a knife's edge."
         ),
         "refs": [
             img("party/alarak-vaelor-veltharion.png"),
@@ -75,8 +75,8 @@ SESSIONS_DATA = [
         "prompt": (
             "A large hawk with fierce golden eyes snatches a tiny brown rat tumbling through "
             "the air mid-fall, talons open, wings spread wide — the rat barely caught before "
-            "hitting the rocky road below. A wooden wagon rumbles away in the background "
-            "through a grey morning landscape. An absurd and desperate rescue."
+            "hitting the rocky road below. On top of the wagon, a pale roguish man in an orange "
+            "prison uniform watches in disbelief. A wooden wagon rumbles away through a grey morning landscape."
         ),
         "refs": [img("party/kaelen-thornecrest-1.png")],
     },
@@ -111,10 +111,10 @@ SESSIONS_DATA = [
     {
         "file": "2026-03-28-slick-dies-in-ironwood-fortress.md",
         "prompt": (
-            "A pale roguish man lies still on the stone floor of a chaotic soup kitchen, "
-            "two arrows in his chest, eyes closed. A massive brown bear stands over him "
-            "protectively, wounded guards backing away. A stout dwarven woman shouts from "
-            "across the room. The party is already fleeing through the window. Tragedy."
+            "Outside a stone building at night, a pale roguish man in traveler's clothes "
+            "lies dying in the dirt, two arrows in his chest. A massive brown bear looms over him. "
+            "Through a glowing window in the wall behind them, a stout dwarven woman in a food "
+            "service apron can be seen trapped inside, pressing her hands against the glass. Tragedy."
         ),
         "refs": [
             img("party/kaelen-thornecrest-1.png"),
