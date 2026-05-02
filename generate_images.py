@@ -35,7 +35,7 @@ ENTRIES = [
     {
         "md": f"{CAMPAIGN}/party/fib-noodlecork.md",
         "img": f"{CAMPAIGN}/party/fib-noodlecork.png",
-        "prompt": "An elderly forest gnome bard sitting on a tree stump playing the lute for a small audience of crickets in a moonlit forest clearing. Small stature, warm expressive face, twinkling mischievous eyes, short white beard, bushy eyebrows, blue robe. Weathered but full of life.",
+        "prompt": "An elderly forest gnome bard performing on a small wooden stage in a warm candlelit tavern, playing the lute with eyes closed and a wide grin, crowd of patrons watching behind him, mugs raised. Small stature, warm expressive face, short white beard, bushy eyebrows, blue robe. Weathered but full of life.",
         "size": "1024x1024", "width": 512, "height": 512,
     },
     {
