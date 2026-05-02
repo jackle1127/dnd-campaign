@@ -553,14 +553,13 @@ main img {
   margin: 0 0 20px 28px;
 }
 
-/* Location/map images come after h1 — full width, no float */
+/* Location/map/session images come after h1 — full width, no float */
 #content > h1 ~ p > img {
   max-width: 100%;
   width: 100%;
   float: none;
   margin: 16px 0;
 }
-
 
 main hr {
   border: none;
