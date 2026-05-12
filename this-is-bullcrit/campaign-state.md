@@ -22,7 +22,7 @@ While out searching for clothes to steal, the party came across a Thornecrest ca
 
 Bristle informed the group that Alarak had slipped away in the night, leaving behind a letter: he would take responsibility for returning Helga's chest to her family, and was parting ways due to the party's overly chaotic tendencies. The party drove to the Silver Oak in Darian's Thornecrest carriage and met Briggs, a large orc guard at the gate. Darian mistook him for a valet; Szeth paid him 5gp to park the carriage and keep the peace. The party split - Darian and Szeth entered through the front door to join the feast, while Vacir, Rayne, and Bristle climbed vines to the second floor and slipped in through a window.
 
-Inside, the Lord Halvard Dendros look-alike took the podium and gave a speech naming the 5 wanted rebels. Slick was marked with a red X. Darian stepped forward to confront the speaker for dishonoring his brother's name; after being ignored, Szeth tried to pull him back - and Darian pointed out that Szeth was the man on the wanted poster. The guards realized criminals were present and combat broke out. Briggs set fire to distract the guards; Vacir fought; Bristle and Rayne held off Dendros. Szeth and Darian were overwhelmed in melee and both went down. Briggs dragged Szeth out to the carriage; Bear Rayne grabbed Vacir in her mouth and dashed out to join them. Rayne healed Szeth and Vacir while Briggs drove the carriage away. Darian was not able to escape - Ironwood Fortress guards seized him as the last Thornecrest brother.
+Inside, the Lord Halvard Dendros look-alike took the podium and gave a speech naming the 5 wanted rebels. Slick was marked with a red X. Darian stepped forward to confront the speaker for dishonoring his brother's name; after being ignored, Szeth tried to pull him back - and Darian pointed out that Szeth was the man on the wanted poster. The guards realized criminals were present and combat broke out. Briggs set fire to distract the guards; Vacir fought; Bristle and Rayne held off Dendros. Szeth and Darian were overwhelmed in melee and both went down. Briggs dragged Szeth out to the carriage; Bear Rayne grabbed Vacir in her mouth and dashed out to join them. Rayne healed Szeth and Vacir while Briggs drove the carriage away. Darian was killed in the battle - the last Thornecrest brother fell at the Silver Oak.
 
 ## Loose Threads
 
@@ -30,7 +30,7 @@ Inside, the Lord Halvard Dendros look-alike took the podium and gave a speech na
 - Lord Halvar Dendros look-alike: gave a speech at the Silver Oak naming the party as wanted rebels; connection to the real Dendros unknown
 - Helga's family: Alarak took her chest and departed to deliver it - status unknown
 - Szeth's contract with Inkus: Szeth must recruit members into Inkus's religion
-- Darian Thornecrest: captured by Ironwood Fortress guards at the Silver Oak; held as the last Thornecrest brother
+- The Thornecrest line: both Kaelen and Darian are now dead
 - Alarak: left the party voluntarily; whereabouts unknown
 
 ## Party
@@ -41,7 +41,7 @@ Inside, the Lord Halvard Dendros look-alike took the podium and gave a speech na
 | Szeth Stormblessed | TomThunder116 | Warlock 2 | Tiefling | Active |
 | Rayne Willowshade | AngelFoxette | Druid 2 | Eladrin | Active |
 | ~~Alarak Vaelor Veltharion~~ | Aricin | Paladin 2 | Dhampir | Left the party |
-| ~~Darian Thornecrest~~ | jackle1127 | Wizard 2 | Human | CAPTURED |
+| ~~Darian Thornecrest~~ | jackle1127 | Wizard 2 | Human | DECEASED |
 | ~~Kaelen "Slick" Thornecrest~~ | jackle1127 | Wizard 2 | Human | DECEASED |
 
 ## Loose Ends

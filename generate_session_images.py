@@ -136,18 +136,18 @@ SESSIONS_DATA = [
         ],
     },
     {
-        "file": "2026-04-24.md",
+        "file": "2026-04-24-darian-dies-at-silver-oak.md",
         "prompt": (
-            "On the ivy-covered outer wall of a grand stone feast hall at night, a tiny "
-            "flying squirrel and a small brown rat cling to the stonework just below an "
-            "open window, torchlight spilling from inside. The squirrel braces the window "
-            "open while the rat slips inside. Below, elegant guests arrive at the main gate "
-            "in fine carriages. A caper mid-heist."
+            "Inside a grand torchlit feast hall in chaos, a well-dressed young nobleman falls "
+            "to his knees on the stone floor, mortally wounded, surrounded by armored guards. "
+            "Fire and smoke fill the hall behind him. Through the tall arched doors, a massive "
+            "brown bear and a large orc can be glimpsed fleeing into the night with others. "
+            "The nobleman reaches forward with one hand — the last Thornecrest, dying alone."
         ),
         "refs": [
-            img("npcs/bristle.png"),
             img("party/darian-thornecrest.png"),
             img("party/szeth-stormblessed.png"),
+            img("npcs/bristle.png"),
         ],
     },
 ]

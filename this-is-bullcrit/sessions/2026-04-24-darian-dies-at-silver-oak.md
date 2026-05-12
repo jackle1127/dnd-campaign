@@ -1,6 +1,6 @@
-# 2026-04-24 - Darian Captured at Silver Oak
+# 2026-04-24 - Darian Dies at Silver Oak
 
-![](2026-04-24-highlight.png)
+![](2026-04-24-darian-dies-at-silver-oak-highlight.png)
 
 
 - Bristle came and pulled the party back to camp
@@ -28,4 +28,4 @@
 - Briggs dragged the unconscious Szeth out to the chariot
 - Bear Rayne grabbed Vacir in her mouth and dashed to the chariot
 - Rayne healed the unconscious Szeth and Vacir; Briggs drove the chariot rolling
-- **Darian was captured** - Ironwood Fortress guards seized him as the last Thornecrest brother before he could escape the Silver Oak
+- **Darian was killed** - fell in the battle at the Silver Oak, the last Thornecrest brother
