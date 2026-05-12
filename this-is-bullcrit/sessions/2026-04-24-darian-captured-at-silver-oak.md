@@ -1,4 +1,4 @@
-# 2026-04-24
+# 2026-04-24 - Darian Captured at Silver Oak
 
 ![](2026-04-24-highlight.png)
 
@@ -17,3 +17,15 @@
 - Vacir tried the door; Bristle wanted him to try the window instead
 - Bristle and Rayne (as a rat) climbed up to the window and unlocked it from the outside
 - Vacir, Rayne, and Bristle all slipped into the room through the window
+- The group made general observations of the Silver Oak interior
+- The Lord Halvard Dendros look-alike took the podium and gave a speech naming 5 wanted rebels - Slick was marked with a big red X (deceased)
+- Darian stepped forward and approached the stage to confront the speaker for dishonoring his brother's name
+- After being ignored, Szeth tried to pull Darian back to their table
+- Darian, frustrated, pointed out Szeth as the man on the wanted poster
+- Guards realized some or all of the criminals were present and took up arms
+- **Combat broke out**: Briggs set a fire to distract the guards; Vacir fought; Bristle and Rayne held off Dendros
+- Szeth and Darian found themselves badly out of their depth in close-quarters melee and went down
+- Briggs dragged the unconscious Szeth out to the chariot
+- Bear Rayne grabbed Vacir in her mouth and dashed to the chariot
+- Rayne healed the unconscious Szeth and Vacir; Briggs drove the chariot rolling
+- **Darian was captured** - Ironwood Fortress guards seized him as the last Thornecrest brother before he could escape the Silver Oak

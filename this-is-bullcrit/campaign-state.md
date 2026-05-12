@@ -20,25 +20,31 @@ The party took a long rest in the forest. During the rest, Szeth was visited by 
 
 While out searching for clothes to steal, the party came across a Thornecrest carriage. Darian Thornecrest had been tricked by thieves and lost all his gold and possessions. The party showed him Kaelen's body. Darian said the Thornecrest family prayer over his brother and agreed to join the crew to find the Bag of Holding.
 
+Bristle informed the group that Alarak had slipped away in the night, leaving behind a letter: he would take responsibility for returning Helga's chest to her family, and was parting ways due to the party's overly chaotic tendencies. The party drove to the Silver Oak in Darian's Thornecrest carriage and met Briggs, a large orc guard at the gate. Darian mistook him for a valet; Szeth paid him 5gp to park the carriage and keep the peace. The party split - Darian and Szeth entered through the front door to join the feast, while Vacir, Rayne, and Bristle climbed vines to the second floor and slipped in through a window.
+
+Inside, the Lord Halvard Dendros look-alike took the podium and gave a speech naming the 5 wanted rebels. Slick was marked with a red X. Darian stepped forward to confront the speaker for dishonoring his brother's name; after being ignored, Szeth tried to pull him back - and Darian pointed out that Szeth was the man on the wanted poster. The guards realized criminals were present and combat broke out. Briggs set fire to distract the guards; Vacir fought; Bristle and Rayne held off Dendros. Szeth and Darian were overwhelmed in melee and both went down. Briggs dragged Szeth out to the carriage; Bear Rayne grabbed Vacir in her mouth and dashed out to join them. Rayne healed Szeth and Vacir while Briggs drove the carriage away. Darian was not able to escape - Ironwood Fortress guards seized him as the last Thornecrest brother.
+
 ## Loose Threads
 
 - Rayne's artifact: last seen being unearthed by Lord Halvar Dendros (or his look-alike) near the Oak tree where Rayne buried it
-- Lord Halvar Dendros look-alike spotted among Ironwood Fortress guards - unknown significance
-- Helga's family: the party still owes her a delivery
+- Lord Halvar Dendros look-alike: gave a speech at the Silver Oak naming the party as wanted rebels; connection to the real Dendros unknown
+- Helga's family: Alarak took her chest and departed to deliver it - status unknown
 - Szeth's contract with Inkus: Szeth must recruit members into Inkus's religion
+- Darian Thornecrest: captured by Ironwood Fortress guards at the Silver Oak; held as the last Thornecrest brother
+- Alarak: left the party voluntarily; whereabouts unknown
 
 ## Party
 
 | Character | Player | Class | Race | Status |
 |---|---|---|---|---|
-| Alarak Vaelor Veltharion | Aricin | Paladin 2 | Dhampir | Active |
 | Vacir | Phxent23 | Rogue 2 | Variant Human | Active |
 | Szeth Stormblessed | TomThunder116 | Warlock 2 | Tiefling | Active |
 | Rayne Willowshade | AngelFoxette | Druid 2 | Eladrin | Active |
-| Darian Thornecrest | jackle1127 | Wizard 2 | Human | Active |
+| ~~Alarak Vaelor Veltharion~~ | Aricin | Paladin 2 | Dhampir | Left the party |
+| ~~Darian Thornecrest~~ | jackle1127 | Wizard 2 | Human | CAPTURED |
 | ~~Kaelen "Slick" Thornecrest~~ | jackle1127 | Wizard 2 | Human | DECEASED |
 
 ## Loose Ends
 
-- Darian's mission: find the Bag of Holding (contains documents linking House Thornecrest to the Argent Circle). Last known location: Vaultspire.
-- Silver Oak feast: Dendros (or his look-alike) was attending the night of 2026-04-10 - party has not yet acted on this lead.
+- Bag of Holding: contains documents linking House Thornecrest to the Argent Circle; last known location: Vaultspire. Darian's original mission.
+- Briggs: orc guard who turned ally at the Silver Oak - lit a fire, dragged Szeth to safety, drove the carriage out.
