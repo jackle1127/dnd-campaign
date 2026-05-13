@@ -19,16 +19,6 @@ def img(rel): return str(CAMPAIGN / rel)
 # Characters without images are described directly in the prompt.
 SESSIONS_DATA = [
     {
-        "file": "2025-10-24-one-year-in-vaultspire.md",
-        "prompt": (
-            "A young woman named Elyra Vance with a warm smile, flour on her hands, "
-            "holds out a freshly baked quiche to a pale, roguish young man across a "
-            "rough wooden table in a dimly lit tavern. Warm candlelight. A moment of "
-            "quiet kindness in a cold northern city."
-        ),
-        "refs": [img("party/kaelen-thornecrest-1.png")],
-    },
-    {
         "file": "2026-01-16-prison-setup-breakout-planning.md",
         "prompt": (
             "A grim prison cafeteria with stone walls and iron bars casting long shadows. "
