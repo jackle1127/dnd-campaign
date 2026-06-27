@@ -3,10 +3,10 @@
 # Fib Noodlecork
 
 **Player:** jackle1127  
-**Class:** Bard 2  
+**Class:** Bard 3 (College of Lore)  
 **Race:** Forest Gnome  
-**Level:** 2  
-**HP:** 13  
+**Level:** 3  
+**HP:** 24  
 **Status:** Active
 
 ## Appearance
@@ -25,20 +25,26 @@ A spry elderly forest gnome in his late years but full of life. Kind wrinkles ar
 |----|-----------|-------|-------------|
 | 12 (Unarmored) | +2 | 30 ft. | +2 |
 
+**Subclass:** College of Lore
+
 **Saving Throws:** STR -1 | DEX* +4 | CON +1 | INT +0 | WIS +1 | CHA* +4  
 *proficient
 
-**Skills (proficient):** Performance +6 (Expertise), Persuasion +6 (Expertise), Deception +4, Arcana +2, History +2  
+**Skills (proficient):** Performance +6 (Expertise), Persuasion +6 (Expertise), Deception +4, Arcana +2, History +2, Insight +3, Stealth +4, Sleight of Hand +4  
 **Passive Perception:** 11  
 **Darkvision:** 60 ft.
 
 ## Features and Traits
 
 ### Bard Features
-**Bardic Inspiration:** You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6. Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains...
+**Bardic Inspiration (d6):** You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6. Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains...
 **Spellcasting:** You have learned to cast spells through your bardic arts. Cantrips. You know two cantrips of your choice from the Bard spell list. Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list. When you reach Bard levels 4 and 10,...
 **Expertise:** You gain Expertise in two of your skill proficiencies of your choice. At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.
 **Jack of All Trades:** You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency...
+
+### College of Lore Features
+**Cutting Words:** Reaction - subtract your Bardic Inspiration die from an enemy's attack roll, damage roll, or ability check.  
+**Bonus Proficiencies:** Insight, Stealth, Sleight of Hand
 
 ### Gnome Traits
 **Darkvision:** You have Darkvision with a range of 60 feet.
@@ -57,7 +63,8 @@ A spry elderly forest gnome in his late years but full of life. Kind wrinkles ar
 ## Spells
 
 **Cantrips:** Minor Illusion, Vicious Mockery, Prestidigitation, Chill Touch, Message  
-**1st Level (2 slots):** Charm Person, Healing Word, Thunderwave, Dissonant Whispers  
+**1st Level (4 slots):** Charm Person, Healing Word, Thunderwave, Dissonant Whispers, Faerie Fire  
+**2nd Level (2 slots):** -  
 **Magic Initiate (1/day):** Find Familiar
 
 ## Languages
@@ -94,4 +101,4 @@ Since crossing into the Heartlands, he's had the sense of being followed. A man 
 
 Someone knows what the lute does. They watched him long enough to understand why the journals matter. Whether they wanted the lute for themselves, or wanted him disarmed first - he hasn't decided which is worse.
 
-*Last updated: 2026-04-28*
+*Last updated: 2026-06-26*

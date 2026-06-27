@@ -37,11 +37,12 @@ Inside, the Lord Halvard Dendros look-alike took the podium and gave a speech na
 
 | Character | Player | Class | Race | Status |
 |---|---|---|---|---|
-| Vacir | Phxent23 | Rogue 2 | Variant Human | Active |
-| Szeth Stormblessed | TomThunder116 | Warlock 2 | Tiefling | Active |
-| Rayne Willowshade | AngelFoxette | Druid 2 | Eladrin | Active |
-| ~~Alarak Vaelor Veltharion~~ | Aricin | Paladin 2 | Dhampir | Left the party |
-| ~~Darian Thornecrest~~ | jackle1127 | Wizard 2 | Human | DECEASED |
+| Vacir | Phxent23 | Rogue 3 (Thief) | Variant Human | Active |
+| Szeth Stormblessed | TomThunder116 | Warlock 3 (Fiend Patron) | Tiefling | Active |
+| Rayne Willowshade | AngelFoxette | Druid 3 (Circle of Dreams) | Eladrin | Active |
+| Fib Noodlecork | jackle1127 | Bard 3 (College of Lore) | Forest Gnome | Active |
+| ~~Alarak Vaelor Veltharion~~ | Aricin | Paladin 3 | Dhampir | Left the party |
+| ~~Darian Thornecrest~~ | jackle1127 | Wizard 3 | Human | DECEASED |
 | ~~Kaelen "Slick" Thornecrest~~ | jackle1127 | Wizard 2 | Human | DECEASED |
 
 ## Loose Ends
